@@ -1,6 +1,6 @@
 # Llama-2-7b PEFT Fine-Tuning on Dolly-15k
 
-This project contains the code and results for fine-tuning the `meta-llama/Llama-2-7b-hf` model on the `databricks/databricks-dolly-15k` dataset.
+This report contains the code and results for fine-tuning the `meta-llama/Llama-2-7b-hf` model on the `databricks/databricks-dolly-15k` dataset.
 
 The training was performed using Parameter-Efficient Fine-Tuning (PEFT), specifically **QLoRA**, to achieve highly efficient training on NVIDIA H100 GPUs. The goal was to improve the base model's instruction-following and conversational abilities.
 
@@ -28,9 +28,9 @@ The fine-tuned LoRA adapters for each experimental run are available for downloa
 | **Run 1 (DDP)** | `outputs5` | **Rank: 32**, LR: 2e-4, 3 Epochs | [PASTE YOUR GDRIVE LINK HERE] |
 | **Run 4** | `outputs` | **Rank: 8**, LR: 2e-4, 3 Epochs | [https://drive.google.com/file/d/1F9U85KfO2ykoO0XIKDgN2wCPVVhH23_i/view?usp=drive_link] |
 
-###Training
+### Training
 
-We conducted four main experiments, each with different hyperparameters.
+Conducted four main experiments, each with different hyperparameters.
 
 ### Experimental Runs
 
