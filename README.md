@@ -45,6 +45,6 @@ click this link: https://api.wandb.ai/links/srisona361-national-university-of-si
 The training was performed using the `train2.py` script.
 For SBATCH file run Submit2.sh
 
-###For DDP 
+### For DDP implementation
 Inside ddp folder both sbatch and python files are there for reproducing purpose.
 
