@@ -1,0 +1,19 @@
+{
+  "win_rate": 50.0,
+  "loss_rate": 21.25,
+  "tie_rate": 28.749999999999996,
+  "total_questions": 80,
+  "model": "/home/s/sri007/my_project/assignment7/outputs2/llama2-7b-dolly15k-lora/merged",
+  "baseline": "vicuna-7b-v1.5",
+  "judge": "lmsys/vicuna-7b-v1.5",
+  "category_scores": {
+    "writing": 70.0,
+    "roleplay": 40.0,
+    "reasoning": 50.0,
+    "math": 30.0,
+    "coding": 20.0,
+    "extraction": 90.0,
+    "stem": 50.0,
+    "humanities": 50.0
+  }
+}

@@ -1,0 +1,38 @@
+Starting AlpacaEval job 255305
+Model: meta-llama/Llama-2-7b-hf
+Instructions: 805
+============================================================
+ALPACAEVAL EVALUATION WITH 805 REAL INSTRUCTIONS
+============================================================
+Your Model: meta-llama/Llama-2-7b-hf
+Judge Model: prometheus-eval/prometheus-7b-v2.0
+Number of instructions: 805
+============================================================
+Loading AlpacaEval data from: /home/s/sri007/.cache/huggingface/hub/datasets--tatsu-lab--alpaca_eval/snapshots/2edc6fad8be6b14ea7230aabfd08188da6b8b814/alpaca_eval.json
+Found 805 total instructions
+Loaded 805 instructions for evaluation
+
+1. Generating answers from YOUR model for 805 instructions...
+Loading model from meta-llama/Llama-2-7b-hf...
+Model loaded successfully!
+
+2. Loading judge model...
+Loading judge model: prometheus-eval/prometheus-7b-v2.0
+Judge model loaded successfully!
+
+3. Running pairwise evaluation on 805 examples...
+
+4. Saving results...
+
+============================================================
+ALPACAEVAL RESULTS SUMMARY
+============================================================
+Your Model Win Rate: 68.07%
+Baseline Win Rate: 14.78%
+Tie Rate: 17.14%
+Average Score: 3.93/5.0
+Total Evaluations: 805
+Dataset: AlpacaEval (805 instructions)
+Results saved to: ./pairwise_alpacaeval_results_255305_1_base_zerotmp
+============================================================
+Job completed. Results in: ./pairwise_alpacaeval_results_255305_1_base_zerotmp

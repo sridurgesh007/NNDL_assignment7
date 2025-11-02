@@ -1,0 +1,38 @@
+Starting AlpacaEval job 244636
+Model: /home/s/sri007/my_project/assignment7/outputs/llama2-7b-dolly15k-lora/merged
+Instructions: 800
+============================================================
+ALPACAEVAL EVALUATION WITH 805 REAL INSTRUCTIONS
+============================================================
+Your Model: /home/s/sri007/my_project/assignment7/outputs/llama2-7b-dolly15k-lora/merged
+Judge Model: prometheus-eval/prometheus-7b-v2.0
+Number of instructions: 800
+============================================================
+Loading AlpacaEval data from: /home/s/sri007/.cache/huggingface/hub/datasets--tatsu-lab--alpaca_eval/snapshots/2edc6fad8be6b14ea7230aabfd08188da6b8b814/alpaca_eval.json
+Found 805 total instructions
+Loaded 800 instructions for evaluation
+
+1. Generating answers from YOUR model for 800 instructions...
+Loading model from /home/s/sri007/my_project/assignment7/outputs/llama2-7b-dolly15k-lora/merged...
+Model loaded successfully!
+
+2. Loading judge model...
+Loading judge model: prometheus-eval/prometheus-7b-v2.0
+Judge model loaded successfully!
+
+3. Running pairwise evaluation on 800 examples...
+
+4. Saving results...
+
+============================================================
+ALPACAEVAL RESULTS SUMMARY
+============================================================
+Your Model Win Rate: 72.88%
+Baseline Win Rate: 11.12%
+Tie Rate: 16.00%
+Average Score: 4.07/5.0
+Total Evaluations: 800
+Dataset: AlpacaEval (800 instructions)
+Results saved to: ./pairwise_alpacaeval_results_244636
+============================================================
+Job completed. Results in: ./pairwise_alpacaeval_results_244636

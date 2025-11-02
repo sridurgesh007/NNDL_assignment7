@@ -1,0 +1,19 @@
+{
+  "win_rate": 21.25,
+  "loss_rate": 47.5,
+  "tie_rate": 31.25,
+  "total_questions": 80,
+  "model": "meta-llama/Llama-2-7b-hf",
+  "baseline": "vicuna-7b-v1.5",
+  "judge": "lmsys/vicuna-7b-v1.5",
+  "category_scores": {
+    "writing": 40.0,
+    "roleplay": 30.0,
+    "reasoning": 30.0,
+    "math": 0.0,
+    "coding": 10.0,
+    "extraction": 30.0,
+    "stem": 30.0,
+    "humanities": 0.0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "win_rate": 69.3167701863354,
+  "loss_rate": 13.664596273291925,
+  "tie_rate": 17.018633540372672,
+  "average_score": 3.945341614906832,
+  "total_comparisons": 805,
+  "your_model": "/home/s/sri007/my_project/assignment7/outputs/llama2-7b-dolly15k-lora/merged",
+  "baseline_model": "text-davinci-003",
+  "judge_model": "prometheus-eval/prometheus-7b-v2.0",
+  "dataset": "AlpacaEval (805 instructions)"
+}

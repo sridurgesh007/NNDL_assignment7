@@ -1,0 +1,11 @@
+{
+  "win_rate": 68.07453416149069,
+  "loss_rate": 14.782608695652174,
+  "tie_rate": 17.142857142857142,
+  "average_score": 3.929192546583851,
+  "total_comparisons": 805,
+  "your_model": "meta-llama/Llama-2-7b-hf",
+  "baseline_model": "text-davinci-003",
+  "judge_model": "prometheus-eval/prometheus-7b-v2.0",
+  "dataset": "AlpacaEval (805 instructions)"
+}

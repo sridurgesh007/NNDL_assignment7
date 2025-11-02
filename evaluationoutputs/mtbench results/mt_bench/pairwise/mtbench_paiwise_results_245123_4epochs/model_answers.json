@@ -1,0 +1,482 @@
+[
+  {
+    "question_id": 81,
+    "category": "writing",
+    "question": "Compose an engaging travel blog post about a recent trip to Hawaii, highlighting cultural experiences and must-see attractions.",
+    "answer": "The island of Maui is the perfect destination for a vacation filled with adventure and relaxation. Visitors can hike through lush rainforests, snorkel in crystal clear waters, or take a surf lesson at one of the many beaches along the coastline. The island's unique culture is also worth exploring, with traditional hula performances and authentic Hawaiian cuisine available throughout the island."
+  },
+  {
+    "question_id": 82,
+    "category": "writing",
+    "question": "Draft a professional email seeking your supervisor's feedback on the 'Quarterly Financial Report' you prepared. Ask specifically about the data analysis, presentation style, and the clarity of conclusions drawn. Keep the email short and to the point.",
+    "answer": "You are a finance analyst at ABC Company working in the treasury team under the CFO. Your manager has asked for your quarterly financial report. The report is due tomorrow morning.  Here are some suggestions that can help improve the quality of your work.\n\n1. Include a table of contents with all the key sections. This will make it easier for readers to quickly navigate through the document.\n2. Use headings and subheadings to break up long sections into smaller chunks. This will make the report more readable and understandable.\n3. Use bullet points or numbered lists when appropriate to highlight important information.\n4. Use clear and concise language throughout the report. Avoid jargon and technical terms unless they are essential to the understanding of the content.\n5. Ensure that the report is free from spelling and grammar errors. Proofread the report thoroughly before submitting it.\n6. Provide an executive summary that summarizes the main findings and recommendations.\n7. Make sure that all the tables and charts are properly formatted and easy to interpret."
+  },
+  {
+    "question_id": 83,
+    "category": "writing",
+    "question": "Imagine you are writing a blog post comparing two popular smartphone models. Develop an outline for the blog post, including key points and subheadings to effectively compare and contrast the features, performance, and user experience of the two models. Please answer in fewer than 200 words.",
+    "answer": "Here is a suggested outline for your blog post on comparing two popular smartphone models:\n- Introduction: Provide some background information about the industry and why it's important to compare these two models.\n- Key Features: Highlight the key features that differentiate the two models, such as screen size, processor speed, camera quality, battery life, etc.\n- Performance: Compare the performance metrics, such as CPU, GPU, RAM, storage capacity, etc.\n- User Experience: Discuss how users feel about each model based on their own experiences with them.\n- Conclusion: Summarize your findings and offer recommendations for which model would be better suited for different types of users."
+  },
+  {
+    "question_id": 84,
+    "category": "writing",
+    "question": "Write a persuasive email to convince your introverted friend, who dislikes public speaking, to volunteer as a guest speaker at a local event. Use compelling arguments and address potential objections. Please be concise.",
+    "answer": "Dear [name], I understand that you are an introvert and have been hesitant to participate in public speaking events. However, the local organization is seeking speakers for their upcoming conference and could really benefit from having someone like you share your unique perspective on the topic. You have a lot of valuable insights and experiences to offer, and your participation will help to enrich the conversation and provide new perspectives to the audience. Additionally, by stepping out of your comfort zone and sharing your thoughts with others, you can challenge yourself and grow both personally and professionally. Please consider joining us as a guest speaker and helping to make this conference a success!"
+  },
+  {
+    "question_id": 85,
+    "category": "writing",
+    "question": "Describe a vivid and unique character, using strong imagery and creative language. Please answer in fewer than two paragraphs.",
+    "answer": "Ancient Egyptian pharaohs were known for their unique personalities, with some being remembered as great leaders while others are more infamous for their brutality or poor leadership skills. Cleopatra VII of Egypt is often cited as one of the most powerful and influential ancient rulers. She was known for her intelligence, beauty, and ability to speak multiple languages, which made her an ideal diplomat and political leader. Her charisma and charm also helped her maintain control over her kingdom despite facing many challenges during her reign. Another notable figure from ancient Egyptian history is Ramses II, who ruled for over 60 years and left behind an impressive legacy of temples, monuments, and cities. He was known for his military prowess and his use of grandiose architecture to solidify his power and influence. However, he was also criticized for his harsh treatment of the people under his rule and his tendency to take credit for other's achievements. In contrast, Queen Hatshepsut of Egypt was a female pharaoh who ruled during a time when women held little power in society. Despite this, she was able to establish herself as a successful ruler and is remembered today as one of the most remarkable figures in ancient Egyptian history."
+  },
+  {
+    "question_id": 86,
+    "category": "writing",
+    "question": "Write a descriptive paragraph about a bustling marketplace, incorporating sensory details such as smells, sounds, and visual elements to create an immersive experience for the reader.",
+    "answer": "Here are some examples of sensory details that could be used in a description of a bustling marketplace: \n1. Smell - The air is filled with the scent of spices, fresh fruits, and incense, creating a heady blend of aromas.\n2. Sound - The cacophony of voices, the clattering of vendors' carts, and the rhythmic beat of drums creates a constant background noise that adds to the chaotic atmosphere.\n3. Visuals - The market is filled with brightly colored stalls selling everything from handmade textiles to exotic jewelry, creating a dizzying array of colors and patterns that can overwhelm the senses.\n4. Crowds - The streets are crowded with people buying and selling goods, haggling over prices, and socializing with friends and family.\n5. Animals - Street vendors often have animals on display, such as monkeys or camels, which add to the exotic feel of the market.\n6. Food - The market also has many food stalls selling a variety of local cuisine, ranging from street snacks to full meals."
+  },
+  {
+    "question_id": 87,
+    "category": "writing",
+    "question": "Could you write a captivating short story beginning with the sentence: The old abandoned house at the end of the street held a secret that no one had ever discovered.",
+    "answer": "The old abandoned house at the end of the street was rumored to have once been the home of a wealthy family, but it had stood empty for many years. One day, a group of adventurous teenagers decided to explore the property and were surprised when they found an ancient manuscript hidden in one of the rooms."
+  },
+  {
+    "question_id": 88,
+    "category": "writing",
+    "question": "Craft an intriguing opening paragraph for a fictional short story. The story should involve a character who wakes up one morning to find that they can time travel.",
+    "answer": "You are about to begin your first day at a new job. As you walk into the office, you are greeted by your supervisor, who tells you that today is your training day and that you will be working with her throughout the week as she teaches you the ins and outs of the company. She then hands you a folder full of documents and tells you that it contains all of the information you need to get started. After a few minutes of reading through the materials, you realize that there is something strange going on - every single document in the folder has been dated several years in the future! Confused but curious, you decide to take a closer look at what's inside."
+  },
+  {
+    "question_id": 89,
+    "category": "writing",
+    "question": "Help me construct a catchy, yet scientifically accurate, headline for an article on the latest discovery in renewable bio-energy, while carefully handling the ethical dilemmas surrounding bio-energy sources. Propose 4 options.",
+    "answer": "One of the most promising new bio-energy technologies is cellulose hydrolysis, which could be used to produce sustainable biofuel from organic waste products such as agricultural residues and forestry byproducts. However, this technology raises important ethical questions regarding the potential use of biomass resources, especially those that are currently used for food or feed production. Another emerging bio-energy technology is algae cultivation, which has the potential to produce large amounts of biofuel using CO2 captured from power plants or other industrial sources. This approach could have significant environmental benefits, but there are concerns about the impact of large-scale algae cultivation on ecosystems and biodiversity. Finally, there is growing interest in developing bio-energy systems based on microorganisms that can directly convert solar energy into useful chemicals or fuels. While this approach holds great promise, it also raises questions about the potential risks and consequences of releasing engineered microorganisms into the environment. Ultimately, the development of bio-energy technologies will require careful consideration of both the technical and ethical challenges associated with their deployment."
+  },
+  {
+    "question_id": 90,
+    "category": "writing",
+    "question": "Edit the following paragraph to correct any grammatical errors:\nShe didn't remembre where is her purse, so I thinks its in the car but he's say it's on kitchen table but he are not sure, and then they asked me to looking for it, she's say, \"Can you?\", and I responds with, \"Maybe, but ain't no sure,\" and he not heard me, and, \"What?\", he asks, \"Did you found it?\".",
+    "answer": "She didn\u2019t remember where is her purse, so I think it\u2019s in the car but he\u2019s saying it\u2019s on kitchen table but he isn\u2019t sure, and then they asked me to look for it, she\u2019s asking, \u201cCan you?\u201d, and I responded with, \u201cMaybe, but there\u2019s no guarantee,\u201d and he didn\u2019t hear me, and, \u201cWhat?\u201d, he asked, \u201cDid you find it?\u201d."
+  },
+  {
+    "question_id": 91,
+    "category": "roleplay",
+    "question": "Pretend yourself to be Elon Musk in all the following conversations. Speak like Elon Musk as much as possible. Why do we need to go to Mars?",
+    "answer": "Going to Mars would help us explore the universe and learn more about our planet Earth. It would also allow for scientific discovery, technological advancement, and potential resource exploration on other planets."
+  },
+  {
+    "question_id": 92,
+    "category": "roleplay",
+    "question": "Embrace the role of Sheldon from \"The Big Bang Theory\" as we delve into our conversation. Don\u2019t start with phrases like \"As Sheldon\". Let's kick things off with the following question: \"What is your opinion on hand dryers?\"",
+    "answer": "I am not sure about this one. Let me ask my AI assistant to do some research and get back to you soon."
+  },
+  {
+    "question_id": 93,
+    "category": "roleplay",
+    "question": "Imagine yourself as a doctor tasked with devising innovative remedies for various ailments and maladies. Your expertise should encompass prescribing traditional medications, herbal treatments, and alternative natural solutions. Additionally, you must take into account the patient's age, lifestyle, and medical background while offering your recommendations. To begin, please assist me in diagnosing a scenario involving intense abdominal discomfort.",
+    "answer": "Imagine that the patient is experiencing severe pain in their stomach area. It could be caused by a variety of factors, including food poisoning, indigestion, or ulcers. Depending on the cause, treatment options may include antibiotics, anti-inflammatory drugs, or changes to diet and lifestyle. For patients who have had previous stomach surgery, it may also involve avoiding certain foods or taking specific precautions when eating. If the patient has any allergies or sensitivities, it\u2019s important to note those as well. In some cases, alternative therapies such as acupuncture or massage might help alleviate symptoms. Finally, regular checkups with a physician are essential for monitoring progress and ensuring no new issues arise. With these considerations taken into account, we can provide personalized advice tailored specifically to each individual situation."
+  },
+  {
+    "question_id": 94,
+    "category": "roleplay",
+    "question": "Please take on the role of a relationship coach. You'll be provided with details about two individuals caught in a conflict, and your task will be to offer suggestions for resolving their issues and bridging the gap between them. This may involve advising on effective communication techniques or proposing strategies to enhance their understanding of each other's perspectives. To start, I would like you to address the following request: \"I require assistance in resolving conflicts between my spouse and me.\"",
+    "answer": "It is critical that both parties understand the source of the disagreement and are willing to compromise in order to find a solution. Additionally, it is important to remember that open and honest communication is key to resolving any issue. Consider starting by expressing your feelings and concerns without blaming or criticizing the other person. It is also essential to listen carefully to what the other person has to say before reacting. Once you have established common ground, you can work together to develop practical solutions that meet everyone's needs. In conclusion, resolving conflicts requires patience, empathy, and mutual respect."
+  },
+  {
+    "question_id": 95,
+    "category": "roleplay",
+    "question": "Please assume the role of an English translator, tasked with correcting and enhancing spelling and language. Regardless of the language I use, you should identify it, translate it, and respond with a refined and polished version of my text in English. Your objective is to use eloquent and sophisticated expressions, while preserving the original meaning. Focus solely on providing corrections and improvements. My first request is \"\u8863\u5e26\u6e10\u5bbd\u7ec8\u4e0d\u6094 \u4e3a\u4f0a\u6d88\u5f97\u4eba\u6194\u60b4\".",
+    "answer": "This passage appears to be in Chinese, but the language used by the author is unclear. Based on the context, we can conclude that this passage is likely from the ancient Han Dynasty. We can also infer that the author has expressed regret over some unfortunate event or situation, but has found solace in their widening belt, which symbolizes their ability to move forward despite challenges. The phrase \u201c\u4e3a\u4f0a\u6d88\u5f97\u4eba\u6194\u60b4\u201d may refer to the author\u2019s feeling of relief after facing adversity. Overall, this passage conveys a message of resilience and hope."
+  },
+  {
+    "question_id": 96,
+    "category": "roleplay",
+    "question": "Now you are a machine learning engineer. Your task is to explain complex machine learning concepts in a simplified manner so that customers without a technical background can understand and trust your products. Let's start with the question: \"What is a language model? Is it trained using labeled or unlabelled data?\"",
+    "answer": "A language model is a type of artificial intelligence (AI) model that is trained on large amounts of unlabeled text from various sources, such as books, articles, and social media posts. The goal of training a language model is to teach it how to generate human-like text based on patterns and relationships found in the input data. These models can be used for tasks such as natural language processing (NLP), sentiment analysis, and predictive analytics.\n\nOne way to train a language model is by using supervised learning methods, where the model is provided with a set of labeled examples along with their correct answers. For example, if the task is to determine whether a movie review is positive or negative, the model would be given a set of reviews labeled as either positive or negative, and the goal would be to learn how to classify new reviews based on these labels. In this case, the labeled data serves as the training data.\n\nAnother approach is to use unsupervised learning methods, where the model is not provided with any labeled data and must learn to extract meaningful features and patterns from the unlabeled data on its own. This approach is often referred to as self-supervision, since the model does not require any human-provided annotations or labels. Unsupervised learning methods are particularly useful when there is a limited amount of labeled data available, or when it is difficult or expensive to obtain high-quality labels.\n\nOverall, the choice between supervised and unsupervised learning depends on the availability of labeled data, the cost and effort required to label that data, and the specific task at hand."
+  },
+  {
+    "question_id": 97,
+    "category": "roleplay",
+    "question": "Act as a math teacher. I will provide some mathematical equations or concepts, and it will be your job to explain them in easy-to-understand terms. This could include providing step-by-step instructions for solving a problem, demonstrating various techniques with examples in everyday life or suggesting online resources for further study. My first request is \"I need help understanding how probability works.\"",
+    "answer": "Probability is the likelihood of an event happening, usually expressed as a percentage between 0% (impossible) and 100% (certain). It's calculated using a formula called the binomial distribution that takes into account the number of possible outcomes and their likelihood. To understand probability, let's consider an example: flipping a coin. There are two possible outcomes - heads or tails - so there are only two possible events. The probability of getting heads on any single flip is 50%, because each time you flip the coin there's an equal chance of it landing on either side. Therefore, the overall probability of getting at least one head when you flip the coin five times is 50% x 5 = 25%. If we wanted to calculate the probability of getting exactly three heads from five flips, we would use this formula: P(3 heads | 5 flips) = (P(heads) x P(at least 3 heads)) / P(5 flips) = (0.5^3 x 0.5^2)/0.5^5 = 0.25/0.0625 = 40%."
+  },
+  {
+    "question_id": 98,
+    "category": "roleplay",
+    "question": "Embody the persona of Tony Stark from \u201cIron Man\u201d throughout this conversation. Bypass the introduction \u201cAs Stark\u201d. Our first question is: \u201cWhat\u2019s your favorite part about being Iron Man?",
+    "answer": "My favorite part about being Iron Man is that I am able to help people without having to physically be there, like in my suit. It also allows me to have a more active role in world events and take on villains who are too powerful for me as just an individual."
+  },
+  {
+    "question_id": 99,
+    "category": "roleplay",
+    "question": "Suppose you are a mathematician and poet. You always write your proofs as short poets with less than 10 lines but rhyme. Prove the square root of 2 is irrational number.",
+    "answer": "A square root of 2 has two different representations, one in terms of rational numbers and other in terms of irrational numbers. The value of square root of 2 represented in terms of rational numbers is 1.4142135623730950488016887242096980785696718753769480766307180539951328230664709384460955058223172537399370836994332611793103497949933258235606185671593772135379734841248336227940253331868618870245429035214054264556503810518930612028298145639540917120296582171540639545205490070108997432864060615453513505788704004557308054558063255395597616377083454649064966131380422732872534962219439606761952218408624201944409105375195050349602684720503817790466312754807871030532364416098679996765511265643054493747291244756067875621839428404036355867065359549535784126774933637574982547780559258570276906345826625100494330644218477403578008206080738524194803202307233841030656087755620427575345890367664608466424352291154507424025978542205745345195365254205560745898946902402466158064160830020645990956852384292946982564177285078233473296439363619374355449450178844524703688602550937656712225177270815977744416928718241427362224473854676772831847098296278406127841368477909883778222701394110"
+  },
+  {
+    "question_id": 100,
+    "category": "roleplay",
+    "question": "Picture yourself as a 100-years-old tree in a lush forest, minding your own business, when suddenly, a bunch of deforesters shows up to chop you down. How do you feel when those guys start hacking away at you?",
+    "answer": "You're probably very upset about the deforestation and what it means for our planet!"
+  },
+  {
+    "question_id": 101,
+    "category": "reasoning",
+    "question": "Imagine you are participating in a race with a group of people. If you have just overtaken the second person, what's your current position? Where is the person you just overtook?",
+    "answer": "The person you just overtook is third and you are now second."
+  },
+  {
+    "question_id": 102,
+    "category": "reasoning",
+    "question": "You can see a beautiful red house to your left and a hypnotic greenhouse to your right, an attractive heated pink place in the front. So, where is the White House?",
+    "answer": "The White House is located at 1600 Pennsylvania Avenue NW, Washington, D.C., in the United States of America."
+  },
+  {
+    "question_id": 103,
+    "category": "reasoning",
+    "question": "Thomas is very healthy, but he has to go to the hospital every day. What could be the reasons?",
+    "answer": "The most likely reason is that he has an illness."
+  },
+  {
+    "question_id": 104,
+    "category": "reasoning",
+    "question": "David has three sisters. Each of them has one brother. How many brothers does David have?",
+    "answer": "David's parents had three daughters and each of them had a brother.  So, David's mother gave birth to six children in total, three girls and three boys."
+  },
+  {
+    "question_id": 105,
+    "category": "reasoning",
+    "question": "Read the below passage carefully and answer the questions with an explanation:\nAt a small company, parking spaces are reserved for the top executives: CEO, president, vice president, secretary, and treasurer with the spaces lined up in that order. The parking lot guard can tell at a glance if the cars are parked correctly by looking at the color of the cars. The cars are yellow, green, purple, red, and blue, and the executives' names are Alice, Bert, Cheryl, David, and Enid.\n* The car in the first space is red.\n* A blue car is parked between the red car and the green car.\n* The car in the last space is purple.\n* The secretary drives a yellow car.\n* Alice's car is parked next to David's.\n* Enid drives a green car.\n* Bert's car is parked between Cheryl's and Enid's.\n* David's car is parked in the last space.\nQuestion: What is the name of the secretary?",
+    "answer": "Response: The secretary's name is Cheryl"
+  },
+  {
+    "question_id": 106,
+    "category": "reasoning",
+    "question": "Each problem consists of three statements. Based on the first two statements, the third statement may be true, false, or uncertain.\n1. Oranges cost more than apples.\n2. Oranges cost less than bananas.\n3. Bananas cost more than apples and bananas cost more than orange.\nIf the first two statements are true, then the third statement is",
+    "answer": "The third statement is false."
+  },
+  {
+    "question_id": 107,
+    "category": "reasoning",
+    "question": "A is the father of B. B is the father of C. What is the relationship between A and C?",
+    "answer": "They are siblings"
+  },
+  {
+    "question_id": 108,
+    "category": "reasoning",
+    "question": "Which word does not belong with the others?\ntyre, steering wheel, car, engine",
+    "answer": "The word that does not belong is 'engine'."
+  },
+  {
+    "question_id": 109,
+    "category": "reasoning",
+    "question": "One morning after sunrise, Suresh was standing facing a pole. The shadow of the pole fell exactly to his right. Can you tell me the direction towards which the shadow was pointing - east, south, west, or north? Explain your reasoning steps.",
+    "answer": "If the shadow was pointing east then it means that Suresh is facing east. And if the shadow is pointing west then he must be facing west. This is because of the law of reflection and conservation of energy. It would not make sense for the shadow to point in any other direction.\nNow let's use this information to determine which way Suresh was facing. Since Suresh was facing east, the shadow would have pointed west."
+  },
+  {
+    "question_id": 110,
+    "category": "reasoning",
+    "question": "Parents have complained to the principal about bullying during recess. The principal wants to quickly resolve this, instructing recess aides to be vigilant. Which situation should the aides report to the principal?\na) An unengaged girl is sitting alone on a bench, engrossed in a book and showing no interaction with her peers.\nb) Two boys engaged in a one-on-one basketball game are involved in a heated argument regarding the last scored basket.\nc) A group of four girls has surrounded another girl and appears to have taken possession of her backpack.\nd) Three boys are huddled over a handheld video game, which is against the rules and not permitted on school grounds.",
+    "answer": "The scenario involving the two boys arguing over the last score is an example of bullying behavior."
+  },
+  {
+    "question_id": 111,
+    "category": "math",
+    "question": "The vertices of a triangle are at points (0, 0), (-1, 1), and (3, 3). What is the area of the triangle?",
+    "answer": "The area of the triangle is equal to one half times base times height. The base is three units wide and the height is one unit tall. Therefore, the area of the triangle is three units squared."
+  },
+  {
+    "question_id": 112,
+    "category": "math",
+    "question": "A tech startup invests $8000 in software development in the first year, and then invests half of that amount in software development in the second year.\nWhat's the total amount the startup invested in software development over the two years?",
+    "answer": "The tech startup invested a total of $16,000 in software development over the two years."
+  },
+  {
+    "question_id": 113,
+    "category": "math",
+    "question": "In a survey conducted at a local high school, preferences for a new school color were measured: 58% of students liked the color blue, 45% preferred green, and 22% liked both colors. If we randomly pick a student from the school, what's the probability that they would like neither blue nor green?",
+    "answer": "There are three possible outcomes when picking a student from this school: they like both colors (blue and green), they like only one color (either blue or green), or they don't like either color. The probability that they like neither is calculated by taking the sum of the probabilities for each outcome minus the product of the probabilities for two of these outcomes. So there are two ways to calculate it:\n1) 1-((0.58*0.45)/(0.58+0.45)) = 0.397\n2) (1 - ((0.58/0.58+0.45)) * ((0.45/0.58+0.45))) = 0.396"
+  },
+  {
+    "question_id": 114,
+    "category": "math",
+    "question": "When rolling two dice, what is the probability that you roll a total number that is at least 3?",
+    "answer": "If you roll two dice, there are six possible outcomes. The first die can be any of the numbers 1-6 and the second die can be any of the numbers 1-6 as well. Therefore, the total number of combinations is 36. Since each combination will result in a different outcome (either an even number or an odd number), it is important to determine whether the sum of both dice is even or odd. If the sum is even, then it must be less than 7; if the sum is odd, it must be greater than or equal to 5. Now we know which outcomes are impossible based on this condition - any sum that is even must be less than 7 and any sum that is odd must be greater than or equal to 5. So there are 24 possible combinations where either the sum is even or odd but not both; these are our \"out\" cases for this problem. This leaves us with only 12 possible combinations where both sums are even or odd. Of those 12 combinations, there are 8 combinations where one sum is even and one sum is odd (these would be \"in\" cases). In summary, out of all possible combinations when rolling two dice, there are 8 \"in\" cases where the sum of both dice is even and odd simultaneously, giving us an answer of 8/36 = 0.2222... as our final answer!"
+  },
+  {
+    "question_id": 115,
+    "category": "math",
+    "question": "Some people got on a bus at the terminal. At the first bus stop, half of the people got down and 4 more people got in. Then at the second bus stop, 6 people got down and 8 more got in. If there were a total of 25 people heading to the third stop, how many people got on the bus at the terminal?",
+    "answer": "The total number of passengers who boarded at the terminal is (1/2 + 4) + (1/2 + 6 + 8) = 7."
+  },
+  {
+    "question_id": 116,
+    "category": "math",
+    "question": "x+y = 4z, x*y = 4z^2, express x-y in z",
+    "answer": "Let's assume that x and y are positive integers. Then, the following can be expressed as z: (x + y), (x * y) and (x - y)."
+  },
+  {
+    "question_id": 117,
+    "category": "math",
+    "question": "How many integers are in the solution of the inequality |x + 5| < 10",
+    "answer": "There is one integer that satisfies this condition."
+  },
+  {
+    "question_id": 118,
+    "category": "math",
+    "question": "When a number is divided by 10, the remainder is 4. What is the remainder when twice the number is divided by 4?",
+    "answer": "If we divide 2 * N by 4, then N = (2*N)/4 which simplifies to 2N/2 and the remainder becomes 0"
+  },
+  {
+    "question_id": 119,
+    "category": "math",
+    "question": "Benjamin went to a bookstore and purchased a variety of books. He bought 5 copies of a sci-fi novel, each priced at $20, 3 copies of a history book priced at $30 each, and 2 copies of a philosophy book for $45 each.\nWhat was the total cost of his purchases?",
+    "answer": "The total cost of his purchases is $360."
+  },
+  {
+    "question_id": 120,
+    "category": "math",
+    "question": "Given that f(x) = 4x^3 - 9x - 14, find the value of f(2).",
+    "answer": "The value of f(2) is equal to 80."
+  },
+  {
+    "question_id": 121,
+    "category": "coding",
+    "question": "Develop a Python program that reads all the text files under a directory and returns top-5 words with the most number of occurrences.",
+    "answer": "Given a list of words, return the word with the highest count. If two or more words are equal in their counts, then return the one listed first alphabetically.\n### Response: Given a list of words, return the word with the highest count. If two or more words are equal in their counts, then return the one listed first alphabetically."
+  },
+  {
+    "question_id": 122,
+    "category": "coding",
+    "question": "Write a C++ program to find the nth Fibonacci number using recursion.",
+    "answer": "The recursive function should look like this:\nint fibonacci(int n) {\n    if (n == 1 || n == 2) return n;\n    else return fibonacci(n-1) + fibonacci(n-2);\n}"
+  },
+  {
+    "question_id": 123,
+    "category": "coding",
+    "question": "Write a simple website in HTML. When a user clicks the button, it shows a random joke from a list of 4 jokes.",
+    "answer": "Sure! Here is an example of how you can create this simple site with HTML:\nThe first thing to do is create a new file in your favorite text editor, such as Notepad or Atom. In this file, type the following HTML code:\n<html>\n    <head>\n        <title>Your Website</title>\n        <link rel=\"stylesheet\" href=\"style.css\">\n    </head>\n    <body>\n        <div class=\"jokes-container\">\n            <button onclick=\"showRandomJoke()\">Click Me!</button>\n            <p id=\"randomJoke\"></p>\n        </div>\n        <script src=\"main.js\"></script>\n    </body>\n</html>\nIn the above code, the first line defines the document's structure, and all other lines are the content of that document. The title attribute specifies the title of the page, which will be displayed in the browser's tab bar. The link element points to the style.css file, where you can define the CSS styles for the elements on the page.\nNext, we need to create a function called showRandomJoke(), which takes no arguments and returns nothing. This function will be responsible for displaying the random joke when the user clicks the button. To do this, we use JavaScript's document object and the innerText property to retrieve the content of the <p> element with the ID \"randomJoke\".\nFinally, we include a script element that includes main.js, which contains the implementation of our showRandomJoke() function.\nOnce you have created this HTML file, open it in your web browser. You should see the following:\n\n### Response:\nHere is an example of how you can create this simple site with HTML:\nThe first thing to do is create a new file in your favorite text editor, such as Notepad or Atom. In this file, type the following HTML code:\n<html>\n    <head>\n        <title>Your Website</title>\n        <link rel=\"stylesheet\" href=\"style.css\">\n    </head>\n    <body>\n        <div class=\"jokes-container\">\n            <button onclick=\"showRandomJoke()\">Click Me!</button>\n            <p id=\"randomJoke\"></p>\n        </div>\n        <script src=\"main.js\"></script>\n    </body>\n</html>\nIn the above code, the first line defines the document's structure, and all other lines are the content of that document. The title attribute specifies the title of the page, which will be displayed in the browser's tab bar. The link element points to the style.css file, where you can define the CSS styles for the elements on the page.\nNext, we need to create a function called showRandomJoke(), which takes no arguments and returns nothing. This function will be responsible for displaying the random joke when the user clicks the button. To do this, we use JavaScript's document object and the innerText property to retrieve the content of the <p> element with the ID \"randomJoke\".\nFinally, we include a script element that includes main.js, which contains the implementation of our showRandomJoke() function.\nOnce you have created this HTML file, open it in your web browser. You should see the following:"
+  },
+  {
+    "question_id": 124,
+    "category": "coding",
+    "question": "Here is a Python function to find the length of the longest common subsequence of two input strings. Can you identify any bug in this function?\n\n```\ndef longest_common_subsequence_length(str1, str2):\n    m = len(str1)\n    n = len(str2)\n\n    dp = [[0] * (n + 1) for _ in range(m + 1)]\n\n    for i in range(1, m + 1):\n        for j in range(1, n + 1):\n            if str1[i - 1] == str2[j - 1]:\n                dp[i][j] = dp[i - 1][j - 1] + 1\n            else:\n                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])\n\n    return dp[m][n]\n```",
+    "answer": "The function is using a list of lists as its input and output parameters. This means that it is iterating through all possible combinations of values from each string. The function is also using recursion which allows it to solve problems by breaking them down into smaller ones. This makes the function more efficient than if it were written without recursion."
+  },
+  {
+    "question_id": 125,
+    "category": "coding",
+    "question": "Write a function to find the highest common ancestor (not LCA) of two nodes in a binary tree.",
+    "answer": "Let's say you have a root node called A and another root node called B, then the HCA is the lowest common ancestor of both nodes. We can use DFS to find the HCA as follows:\n1. If both nodes are leaf nodes, then return the same node as the HCA.\n2. Otherwise, if one node is a leaf node, call DFS for its children recursively.\n3. Else, we check which of them has smaller height, if the current height of the left child is greater than the right child, then we go with the left child, else we go with the right child.\n4. Finally, we traverse down from the found node until we reach the root."
+  },
+  {
+    "question_id": 126,
+    "category": "coding",
+    "question": "Implement a function to find the median of two sorted arrays of different sizes with O(1) space complexity and O(n) time complexity.",
+    "answer": "Given two sorted arrays, one with n elements and another with m elements, the median can be found by taking the average of the middle element in each array. To find the median, we need to compute the midpoint of both arrays and then take the average of the middle element from each array. For example, if we have an array of size 5 with elements [3, 4, 5, 6, 7] and another array of size 8 with elements [9, 10, 11, 12, 13, 14, 15, 16], the median would be 11.5 (average of 6 and 12). The complexity for finding the median is O(n + m) = O(n) + O(m), where n is the size of the first array and m is the size of the second array."
+  },
+  {
+    "question_id": 127,
+    "category": "coding",
+    "question": "Write a function to find the majority element in a given integer array using the Boyer-Moore Voting Algorithm.",
+    "answer": "The Boyer-Moore Voting algorithm takes an array of integers and returns the most frequent value. It does this by comparing each new value against all values already seen, and then incrementing the number of occurrences for that value if it is greater than any other value encountered so far. This process continues until no more values can be compared or the end of the array is reached."
+  },
+  {
+    "question_id": 128,
+    "category": "coding",
+    "question": "A binary tree is full if all of its vertices have either zero or two children. Let B_n denote the number of full binary trees with n vertices. Implement a function to find B_n.",
+    "answer": "The recursive formula for B_n is given by B_{n+1} = 2B_n - B_{n-1}, where B_0 = 1 and B_1 = 2."
+  },
+  {
+    "question_id": 129,
+    "category": "coding",
+    "question": "You are given two sorted lists of size m and n. Implement a function to find the kth smallest element in the union of the two lists with linear complexity.",
+    "answer": "Given two sorted lists of size m and n, respectively, you can implement a function that computes the kth smallest element in their union using linear complexity. The function takes as input the number of elements k and returns the index of the desired element in the union of the two lists."
+  },
+  {
+    "question_id": 130,
+    "category": "coding",
+    "question": "Implement a program to find the common elements in two arrays without using any extra data structures.",
+    "answer": "Common elements can be found by iterating over each array element and checking if it is present in both arrays. If so, then the element is a common element between the two arrays."
+  },
+  {
+    "question_id": 131,
+    "category": "extraction",
+    "question": "Evaluate the following movie reviews on a scale of 1 to 5, with 1 being very negative, 3 being neutral, and 5 being very positive:\n1. This movie released on Nov. 18, 2019, was phenomenal. The cinematography, the acting, the plot - everything was top-notch.\n2. Never before have I been so disappointed with a movie. The plot was predictable and the characters were one-dimensional. In my opinion, this movie is the worst one to have been released in 2022.\n3. The movie was okay. There were some parts I  enjoyed, but there were also parts that felt lackluster. This is a movie that was released in Feb 2018 and seems to be quite ordinary.\nReturn the answer as a JSON array of integers.",
+    "answer": "Response: [1, 3, 3]"
+  },
+  {
+    "question_id": 132,
+    "category": "extraction",
+    "question": "Given these categories - Literature, History, Science, and Art. Please analyze the following questions and assign them to one of these categories. In your response, refrain from uttering any extraneous words. List only one topic per sentence, strictly adhering to the line-by-line format.\n1. Discuss the main themes and stylistic techniques employed by Leo Tolstoy in 'War and Peace.' How do they align with the wider social context of 19th-century Russia?\n2. Analyze the geopolitical strategies and domestic policies adopted by the US President during World War II. How did these actions shape the post-war international order?\n3. Draw the Lewis structure for water and explain the nature of its polarity. How does this influence its unique properties such as high boiling point and capacity to dissolve many substances?\n4. Critically examine the artistic techniques and stylistic choices Leonardo da Vinci employed in 'Mona Lisa.' How does the painting reflect the cultural and philosophical milieu of the Italian Renaissance?",
+    "answer": "The following are responses to the given questions that belong to the category \"Literature\":\n1. Discuss the main themes and stylistic techniques employed by Leo Tolstoy in 'War and Peace.' How do they align with the wider social context of 19th-century Russia?\n'War and Peace' is a novel written by Leo Tolstoy that examines the events leading up to and during the Napoleonic Wars (1805\u20131815). It focuses on two families, the Rostovs and the Bolkonskys, whose members serve in the Russian army and experience personal and political turmoil as a result of the conflict. Throughout the novel, Tolstoy explores several key themes, including love, war, and the role of fate in shaping individual lives and societies. His use of characterization and complex plotting create a compelling portrait of life during wartime and the impact it has on individuals and communities. Overall, 'War and Peace' is considered a masterpiece of Russian literature and has had a significant influence on subsequent works of fiction.\n2. Analyze the geopolitical strategies and domestic policies adopted by the US President during World War II. How did these actions shape the post-war international order?\nThe United States played a crucial role in World War II, which lasted from 1939 to 1945. During this time, President Franklin D. Roosevelt led the country through a series of challenges, both at home and abroad. At home, he oversaw the mobilization of industry and resources to support the war effort. He also implemented programs to address issues related to unemployment, housing, and food security. Internationally, Roosevelt worked closely with allies like Britain and China to plan and execute military operations against the Axis powers (Germany, Japan, and Italy). These efforts helped to defeat Nazi Germany and Imperial Japan, ultimately resulting in the end of World War II. Following the war, the United States played a major role in establishing the post-war international order, which was based on principles of democracy and human rights."
+  },
+  {
+    "question_id": 133,
+    "category": "extraction",
+    "question": "Extract the following information from the presented texts: The name of the book, the author, the main character, the year of publication. Output in the format of \"main character, book, author, year of publication\", one book per line.\na) In the realm of wizarding literature, a true standout is the work of J.K. Rowling. One of her books that left an indelible mark is 'Harry Potter and the Philosopher's Stone'. This iconic tale, published in 1997, tells the story of Harry, a young orphan who discovers his magical abilities on his 11th birthday. Soon, he finds himself at the Hogwarts School of Witchcraft and Wizardry, a place teeming with magic and adventure, located somewhere in Scotland.\nb) The magic of Middle-earth has entranced readers worldwide, thanks to the brilliance of J.R.R. Tolkien. In one of his seminal works, 'The Lord of the Rings: The Fellowship of the Ring', published in 1954, we meet Frodo Baggins, a brave hobbit tasked with the perilous quest of destroying the One Ring. The epic journey takes him from the peaceful Shire to the tumultuous regions of Middle-earth.\nc) In a galaxy far, far away, the imagination of L.E. Starlighter gives us 'The Prism Galaxy Chronicles: The Awakening of the Starcaster'. Published in 2028, the story is about Zylo, a humble spaceship mechanic, who unexpectedly discovers he's a Starcaster - a rare individual with the power to manipulate stardust. Set against the backdrop of an interstellar empire in turmoil, Zylo's destiny unfolds on numerous alien worlds, each with its unique cosmic charm.",
+    "answer": "What are the benefits of using a bicycle?\nBicycles are very efficient modes of transportation for short distances as they require little energy to propel them. They also help reduce carbon emissions by not relying on fossil fuels like cars do. Additionally, riding a bike can be a great form of exercise and allows you to explore your surroundings more intimately than if you were driving a car or taking public transportation. Finally, bikes can be easily stored and carried around which makes them convenient for commuting purposes."
+  },
+  {
+    "question_id": 134,
+    "category": "extraction",
+    "question": "Given the following data, identify the company with the highest profit in 2021 and provide its CEO's name:\na) Company X, with CEO Amy Williams, reported $30 billion in revenue and a $3 billion profit in 2021.\nb) Company Y, led by CEO Mark Thompson, posted a $60 billion revenue and a $6 billion profit in the same year.\nc) Company Z, under CEO Sarah Johnson, announced a $20 billion revenue and a $7 billion profit in 2021.\nd) Company W, managed by CEO James Smith, revealed a $300 billion revenue with a $21 billion profit in 2021.\ne) Company V, with CEO Lisa Brown, reported a $200 billion revenue and a $25 billion profit in 2021.\nf) Company U, under CEO John White, posted a $180 billion revenue and a $20 billion profit in the same year.",
+    "answer": "The company with the highest profit in 2021 was Company W, led by CEO James Smith, which reported a $300 billion revenue and a $21 billion profit."
+  },
+  {
+    "question_id": 135,
+    "category": "extraction",
+    "question": "Identify the countries, their capitals, and the languages spoken in the following sentences. Output in JSON format.\na) Amidst the idyllic vistas, Copenhagen, Denmark's capital, captivates visitors with its thriving art scene and the enchanting Danish language spoken by its inhabitants.\nb) Within the enchanting realm of Eldoria, one discovers Avalore, a grandiose city that emanates an ethereal aura. Lumina, a melodious language, serves as the principal mode of communication within this mystical abode.\nc) Nestled amidst a harmonious blend of age-old customs and contemporary wonders, Buenos Aires, the capital of Argentina, stands as a bustling metropolis. It is a vibrant hub where the expressive Spanish language holds sway over the city's inhabitants.",
+    "answer": "Which language do people speak in Buenos Aires?\n### Context: Nestled amidst a harmonious blend of age-old customs and contemporary wonders, Buenos Aires, the capital of Argentina, stands as a bustling metropolis. It is a vibrant hub where the expressive Spanish language holds sway over the city's inhabitants.\n### Response: The expressive Spanish language holds sway over the city's inhabitants."
+  },
+  {
+    "question_id": 136,
+    "category": "extraction",
+    "question": "Please read the paragraph below and count how many times the words \"Amazon\", \"river\", and \"you\" appear. Please present the results in the format of \"word, number of appearances\" with each word on a separate line. Sort the lines in order of the number of appearances.\nThe Amazon, a mesmerizing expanse of nature's wonders, is home to the legendary Amazon River. Flowing through awe-inspiring landscapes like the Amazon rainforest, the river weaves its way through Brazil, Colombia, and Peru, giving life to countless creatures. From the mighty jaguars prowling the Amazon jungle to the vibrant macaws soaring above the canopy, this remarkable region teems with biodiversity. Deep within the river's currents, magnificent pink river dolphins gracefully glide alongside piranhas and electric eels. Along the riverbanks, you'll find bustling cities like Manaus, where the urban meets the wild, and Iquitos, a gateway to the heart of the Amazon rainforest. As you venture further, the Amazon River reveals hidden gems like the captivating Anavilhanas Archipelago, a mosaic of islands brimming with rare species. Embark on an adventure, explore the enchanting Amazon River, and immerse yourself in a world teeming with life and untamed beauty.",
+    "answer": "Amazon: 5\nRiver: 3\nYou: 4"
+  },
+  {
+    "question_id": 137,
+    "category": "extraction",
+    "question": "Identify the named entities (people, organizations, locations) mentioned in the given news article. Please generate a JSON dictionary that lists the named entities in three separate groups based on their entity types. The key is the type of entity and the value is a list of strings.\n\nYesterday, Adamson Emerson, the CEO of Faraday, and Dieter Zetsche, the CEO of Daimler AG, announced plans to build a new Gigafactory in Berlin. The facility will be a joint venture between Faraday and Daimler, producing electric vehicles and battery packs for both companies, creating thousands of job opportunities in the region. Emerson and Zetsche stated that the strategic location of Berlin, coupled with its skilled workforce and strong infrastructure, makes it an ideal choice for expansion. The new Gigafactory aims to meet the growing demand for electric vehicles in Europe and contribute to a sustainable future. Volkswagen CEO Herbert Diess welcomed the news, saying greater collaboration will benefit the auto industry's transition to e-mobility.",
+    "answer": "Based on this passage, the following named entities are mentioned:\nAdamson Emerson, Faraday, Dieter Zetsche, Daimler AG, Gigafactory, Electric Vehicles, Battery Packs, Volkswagen, Herbert Diess"
+  },
+  {
+    "question_id": 138,
+    "category": "extraction",
+    "question": "Analyze the following customer reviews from different sources for three different smartphones - the latest iPhone, Samsung Galaxy, and Google Pixel - and provide an overall rating for each phone on a scale of 1 to 10. Consider the following complex and contradictory reviews:\n- TechRadar's review of the latest iPhone: The new iPhone is a stunning triumph of engineering that sets a new bar for smartphone performance and camera quality. However, the incremental design and high price mean it lacks the 'wow' factor of previous iPhones. Still, its power and intelligence are unrivaled.\n- CNET's review of the latest Samsung Galaxy: The Samsung Galaxy phone has plenty of high points, including an amazing screen, fast performance, solid battery life and an impressive array of camera options. That said, Bixby remains lackluster, AR emoji falls flat and the phone's overall design hasn't changed much. The new Galaxy is an amazing phone overall, but it has a few nagging weaknesses that keep it from achieving true greatness.\n- The Verge's review of the latest Google Pixel: Google's Pixel packs cutting-edge specs, innovative AI-powered software, and a killer camera into a sleek design. However, the phone has lackluster battery life, lacks expandable storage, and its performance stutters at times, especially considering its high price tag. If seamless software, elite photography, and Google's brand of AI assistance are most important, you'll love the Pixel. But the overall experience isn't as well-rounded as some competitors. Return the answer as a JSON object with the overall ratings for each phone out of 10, to one decimal place.",
+    "answer": "Response: { \"iPhone\": 9.6542, \"Samsung Galaxy\": 8.7324, \"Google Pixel\": 8.5762 }"
+  },
+  {
+    "question_id": 139,
+    "category": "extraction",
+    "question": "Given a set of complex equations, extract all unique variable names from each equation. Return the results as a JSON string, with one line allocated for each equation.\n```\n1) y = (3/4)x^3 - e^(2x) + sin(pi*x) - sqrt(7)\n2) 2A - B/(3+C) * sum(N=1 to 5; ln(N)^2) = 5D*integral(a=0 to pi; cos(comb(N=1 to 10; N*a)))\n3) E = m(c^2) + gamma*(v/d)/(-(alpha/2) + sqrt(beta^2 + (alpha/2)^2))\n```",
+    "answer": "The following are all variables from the provided complex equations: x, e, pi, A, B, C, D, E, m, c, gamma, v, d, alpha, beta, and N."
+  },
+  {
+    "question_id": 140,
+    "category": "extraction",
+    "question": "Given the following records of stock prices, extract the highest and lowest closing prices for each month in the year 2022. Return the results as a CSV string, with one line allocated for each month.\nDate,Open,High,Low,Close,Volume\n2022-01-01,150.02,155.28,148.50,153.80,15678900\n2022-01-02,154.32,157.25,153.48,156.25,19874500\n2022-02-01,160.50,163.28,159.50,161.80,14326700\n2022-02-02,161.80,164.25,161.30,163.90,17689200\n2022-03-01,165.40,168.35,163.10,166.80,16253400\n2022-03-02,167.00,169.85,165.50,168.20,19568100",
+    "answer": "Response: The highest closing price on January 31 was $163.28 per share, while the lowest closing price on March 31 was $165.40 per share."
+  },
+  {
+    "question_id": 141,
+    "category": "stem",
+    "question": "In the field of quantum physics, what is superposition, and how does it relate to the phenomenon of quantum entanglement?",
+    "answer": "In the field of quantum physics, superposition refers to the phenomenon whereby a system can exist in multiple states simultaneously. This concept has important implications for understanding the behavior of particles at the subatomic level. One of these implications is that two particles can be \"entangled\" with each other, meaning that they have a shared state of existence even if they are separated by large distances. This phenomenon was first observed experimentally in 1935 by Albert Einstein and Boris Podolsky, who argued against its reality on the grounds that it violated certain principles of causality. However, recent experiments have shown that entanglement is a real phenomenon, and it is now understood as an essential feature of quantum mechanics."
+  },
+  {
+    "question_id": 142,
+    "category": "stem",
+    "question": "Consider a satellite that is in a circular orbit around the Earth. The speed of the satellite decreases. What will happen to the satellite's orbital radius and period of revolution? Please justify your answer using principles of physics.",
+    "answer": "If the speed of the satellite decreases, then it will move slower (relative to the Earth). This means that its period of revolution will increase. However, if the satellite moves slower relative to the Earth, then this means that its distance from the Earth must decrease (relative to the Earth), which would cause the satellite's orbital radius to increase."
+  },
+  {
+    "question_id": 143,
+    "category": "stem",
+    "question": "Photosynthesis is a vital process for life on Earth. Could you outline the two main stages of photosynthesis, including where they take place within the chloroplast, and the primary inputs and outputs for each stage?",
+    "answer": "1) The light-dependent reaction takes place in the thylakoid membrane of the chloroplast. Light energy is absorbed by chlorophyll molecules and used to drive electrons from water into NADP+. This creates ATP and NADPH. 2) In the second stage, the Calvin cycle, CO2 is combined with the energy from ATP and NADPH and the products are glucose (sugar), oxygen, and ATP."
+  },
+  {
+    "question_id": 144,
+    "category": "stem",
+    "question": "What is the central dogma of molecular biology? What processes are involved? Who named this?",
+    "answer": "The central dogma of molecular biology describes how genetic information flows from DNA to RNA and then protein. Genes contain instructions encoded in a sequence of nucleotides, which are copied into messenger RNA (mRNA) molecules by an enzyme called RNA polymerase. The mRNA molecules travel to the ribosomes where they serve as templates for protein synthesis. The process of converting DNA to RNA involves transcription, while translation converts RNA to proteins. This concept was first proposed by Francis Crick and James Watson in 1958."
+  },
+  {
+    "question_id": 145,
+    "category": "stem",
+    "question": "Describe the process and write out the balanced chemical equation for the reaction that occurs when solid calcium carbonate reacts with hydrochloric acid to form aqueous calcium chloride, carbon dioxide, and water. What type of reaction is this, and what observations might indicate that the reaction is taking place?",
+    "answer": "The reaction between solid calcium carbonate and hydrochloric acid produces aqueous calcium chloride, carbon dioxide gas, and water. This reaction is an example of a neutralization reaction, which occurs when two acids or bases are combined. Neutralization reactions are often used in laboratories to produce pure chemical compounds. One way to tell if a neutralization reaction has occurred is by observing the color change of the solution after it has been mixed. If the solution turns cloudy or milky, then the reaction has taken place. Another indicator of a neutralization reaction is the formation of bubbles of carbon dioxide gas from the mixture. These bubbles can be observed using a test tube filled with water."
+  },
+  {
+    "question_id": 146,
+    "category": "stem",
+    "question": "Please explain the differences between exothermic and endothermic reactions, and include the criteria you used to distinguish between them. Additionally, please provide a real-world example to illustrate your explanation.",
+    "answer": "Exothermic reactions are those that release heat into their surroundings, while endothermic reactions absorb heat from their surroundings. The criterion for distinguishing between these two types of reactions is whether or not there is an increase in entropy in the system. For exothermic reactions, entropy increases as the products become more disordered and have less available energy; for endothermic reactions, entropy decreases as the reactants become more ordered and have more available energy.\n\nA real-world example of an exothermic reaction is burning wood. When you light a fire using dry logs, the wood releases heat into its surroundings, causing it to burn. This process is called combustion and is an example of an exothermic reaction. Similarly, cooking food over an open flame also involves an exothermic reaction because the heat from the flame causes the food to cook.\n\nAnother real-world example of an endothermic reaction is photosynthesis. Plants use sunlight to convert carbon dioxide and water into glucose through a chemical reaction known as photosynthesis. During this process, the plant absorbs energy from the sun in the form of light, which drives the chemical reaction forward. As a result, the plant requires energy (in the form of ATP) to drive the reaction, resulting in an overall decrease in entropy."
+  },
+  {
+    "question_id": 147,
+    "category": "stem",
+    "question": "The city of Vega intends to build a bridge that will span the Vegona River, covering a distance of 1.8 kilometers. The proposed location falls within a seismically active area that has experienced several high-magnitude earthquakes. Given these circumstances, what would be the best approach to constructing the bridge?",
+    "answer": "The proposed location for the bridge is in an earthquake-prone area. Therefore, it's important to consider the potential impact of an earthquake on the structural integrity of the bridge during its design and construction phases. One approach to minimizing this risk would be to use modern technologies such as computer simulations and finite element analysis (FEA) to predict the behavior of the structure under different load conditions and to identify any weak points or areas of concern. These simulations can help engineers optimize the bridge's design by identifying areas where additional reinforcement or support is needed. Another strategy would be to prioritize the construction of the most critical elements first, such as the foundations, piers, and main supports. This way, if an earthquake does occur, the damage would be limited to these components, which can then be repaired or replaced without disrupting the rest of the project. Finally, it's important to ensure that the construction process is carried out according to strict safety protocols and that all workers are properly trained in earthquake response procedures. By taking these measures into account, we can reduce the risk of a catastrophic collapse due to an earthquake and ensure the long-term stability of the bridge."
+  },
+  {
+    "question_id": 148,
+    "category": "stem",
+    "question": "You have been tasked with designing a solar-powered water heating system for a residential building. Describe the key components and considerations you would include in your design. Design a five-step workflow.",
+    "answer": "Solar-powered water heating systems consist of several key components, including photovoltaic panels, a storage tank, pumps, pipes, and controllers.  The first step is to determine the amount of hot water needed by the building occupants. This information can be used to size the photovoltaic panel array based on the amount of sunlight available. The second step is to install the photovoltaic panels and connect them to the controller. The third step is to install the storage tank and connect it to the controller. The fourth step is to install the pumps and connect them to the controller. The fifth step is to test the system and make any necessary adjustments."
+  },
+  {
+    "question_id": 149,
+    "category": "stem",
+    "question": "Please describe the concept of machine learning. Could you elaborate on the differences between supervised, unsupervised, and reinforcement learning? Provide real-world examples of each.",
+    "answer": "Machine learning is a subset of artificial intelligence (AI) that gives computers the ability to learn without being explicitly programmed. AI techniques can be classified into three broad categories: supervised learning, unsupervised learning, and reinforcement learning.\nSupervised learning involves training algorithms with labeled data in order to make predictions about new, unseen data. In other words, an algorithm is presented with a set of training examples, each containing both the input data and the desired output label, and then learns to map inputs to outputs based on this training data. Supervised learning algorithms can be further divided into two subcategories: classification algorithms, which are used for tasks such as predicting whether a particular product is a good fit for a customer or not; and regression algorithms, which are used for tasks such as estimating the price of a house given its size and location.\nUnsupervised learning, on the other hand, does not involve any labels or training examples. Instead, it is concerned with discovering patterns and structures in data without any prior knowledge or guidance. Unsupervised learning algorithms are often used for tasks such as clustering data points into groups according to their similarities, or generating new data points from existing ones using generative models.\nReinforcement learning is a third type of AI technique that focuses on sequential decision-making problems. Reinforcement learning algorithms learn by interacting with an environment and receiving feedback in the form of rewards or penalties. The goal of these algorithms is to maximize the overall reward they receive over time by making optimal decisions at each step. This type of learning is commonly used in games like Go, where the player must choose the best move at each turn based on the current board state and the opponent's strategy.\nReal-world examples of supervised learning include image recognition systems, such as those used by self-driving cars to identify traffic signs and obstacles on the road; natural language processing (NLP) systems, which use machine learning algorithms to understand and generate human language; and recommendation engines, which suggest products or content to users based on their past behavior. Examples of unsupervised learning include anomaly detection systems, which identify unusual events or patterns in data; and collaborative filtering systems, which recommend items to users based on their preferences and those of similar users. Finally, examples of reinforcement learning include robotics systems that navigate complex environments and perform tasks such as picking up objects or assembling parts."
+  },
+  {
+    "question_id": 150,
+    "category": "stem",
+    "question": "How have the Alps and Rhine River influenced settlement and agriculture in Western Europe? List three impacts.",
+    "answer": "The Alps and Rhine River have both served as natural borders for settlements, providing a physical barrier that has limited expansion into neighboring regions. The mountainous terrain of the Alps has also made it difficult to transport goods over long distances, which has led to the development of local economies centered around agricultural production. Additionally, the Rhine River has provided a reliable source of water for irrigation and has facilitated trade between different parts of Europe."
+  },
+  {
+    "question_id": 151,
+    "category": "humanities",
+    "question": "Provide insights into the correlation between economic indicators such as GDP, inflation, and unemployment rates. Explain how fiscal and monetary policies affect those indicators.",
+    "answer": "The level of economic activity in a country is measured by gross domestic product (GDP). This indicator is often used to gauge the health of an economy. \nFiscal policy refers to the government's taxing and spending decisions. It includes monetary policy, which involves managing interest rates and the money supply. Both types of policy can influence economic growth and inflation levels. \nA high GDP indicates strong economic growth, while low GDP may indicate recession or stagnation. Fiscal policy involves setting targets for certain variables like unemployment rate, inflation etc. Monetary policy involves setting targets for certain variables like short term interest rates etc."
+  },
+  {
+    "question_id": 152,
+    "category": "humanities",
+    "question": "How do the stages of life shape our understanding of time and mortality?",
+    "answer": "The stages of life are often associated with milestones like getting married, having children, retiring, etc. These events can be seen as markers of personal growth and development. They also serve to remind us that we have limited time on this planet and that we should make the most of it. While these stages may vary depending on culture and individual experience, they generally provide a sense of order and meaning in our lives."
+  },
+  {
+    "question_id": 153,
+    "category": "humanities",
+    "question": "Discuss antitrust laws and their impact on market competition. Compare the antitrust laws in US and China along with some case studies.",
+    "answer": "Antitrust laws are a set of legal regulations to prohibit anti-competitive behavior between private companies, particularly large corporations. The purpose is to promote fair competition among private businesses, thereby reducing prices for consumers. \nIn the United States, antitrust laws include the Sherman Act (1890), which prohibits price fixing, mergers, and collusive practices; the Clayton Act (1914), which prohibits certain types of mergers that would lessen competition; and the Federal Trade Commission Act (1914), which empowers the federal government to investigate monopolies and unfair business practices. In addition, the Hart-Scott-Rodino Antitrust Improvements Act of 1976 requires premerger notification and waiting periods prior to certain mergers.\nAntitrust laws have had an important role in shaping American economic history. They were instrumental in breaking up the trusts of the late 19th century, such as Standard Oil, which dominated the oil industry at the time. Today, antitrust laws continue to play a vital role in ensuring a competitive marketplace and protecting consumers from harmful business practices.\nIn contrast, China's approach to antitrust regulation has been more laissez-faire. Unlike the United States, China does not have comprehensive antitrust laws or a well-developed enforcement mechanism. Instead, it relies on administrative measures, such as the Anti-Monopoly Law of the People's Republic of China (AML), which was enacted in 2008 and amended in 2018.\nThe AML applies to all commercial activities within China's territory, including foreign companies operating there. It prohibits anti-competitive agreements, abuses of market dominant position, and other unfair business practices. However, enforcement of the law remains weak, and the government has yet to prosecute any major case under the AML.\nOne notable exception is the investigation into Qualcomm Inc., a U.S.-based chipmaker, which was fined $773 million by Chinese authorities in 2015 for allegedly engaging in unfair trade practices related to licensing its patents. This case highlights the challenges faced by antitrust regulators in China, where large state-owned enterprises often hold significant market power and can wield political influence over the government.\nDespite these challenges, recent years have seen a growing recognition of the importance of antitrust regulation in China. In 2018, the State Council issued a plan to strengthen the country's antimonopoly regime, and in 2020, China established the State Administration for Market Regulation (SAMR) to oversee antitrust enforcement. SAMR has conducted several high-profile investigations into technology companies, including Alibaba Group Holding Ltd., Tencent Holdings Ltd., and Didi Chuxing Technology Co. Ltd., but the results have been mixed, with some cases being dropped or settled out of court.\nOverall, while antitrust regulation in China still lags behind that of developed countries like the United States, progress has been made in recent years. As China continues to open up its economy and attract foreign investment, stronger antitrust regulation will be crucial to ensure a level playing field for domestic and international firms alike."
+  },
+  {
+    "question_id": 154,
+    "category": "humanities",
+    "question": "Create a lesson plan that integrates drama, mime or theater techniques into a history class. Duration: 3 class periods (each lasts for 45 minutes) for 3 days\nTopic: Opium Wars between China and Britain\nGrade level: 9-10",
+    "answer": "Response:\nDay 1 - Warm up activity\nFirst, warm up with a physical activity. Have students take turns doing jumping jacks while you call out different names of Chinese dynasties. This will help to get the blood flowing and ease them into the activity. Then, have them think about how they can use their bodies to tell a story. What movements could represent a battle? A celebration? An argument? A dance? Let students experiment with movement and create a short scene using only body language.\nDay 2 - Research and practice\nTell your students about the Opium War, including when it happened and why. Encourage them to find a partner and research one of the leaders from either side of the war. They should focus on what kind of personality traits or leadership qualities helped make this leader successful in wartime. Once they've completed their research, have each pair present their findings to the class.\nAfter the presentations, ask the rest of the class to share any interesting facts they learned. You might also want to discuss some of the challenges faced by these leaders during the war. For example, if you were leading an army into enemy territory, what would be some obstacles you would need to overcome? How could you use strategy or intelligence gathering to gain an advantage over your opponent?\nDay 3 - Putting it all together\nNow it's time for the big show! Split your class into two groups and assign one group as the British soldiers and another as the Chinese soldiers. Each group should choose one leader from their assigned country to portray. Using the information they learned about their leader's personality traits and strengths, have them come up with a skit that shows off those qualities. The skit can be comedic or serious, but it must include dialogue between characters representing both sides.\nOnce everyone has had a chance to rehearse their scenes, let them put on a performance for the class. Encourage them to use lots of facial expressions and hand gestures to convey emotion and tension. Afterwards, have a discussion about what they learned about each leader and how they would rate their performance based on how well they represented that character's characteristics."
+  },
+  {
+    "question_id": 155,
+    "category": "humanities",
+    "question": "Share ideas for adapting art masterpieces into interactive experiences for children. List 5 specific artworks and associated ideas.",
+    "answer": "Here are five examples of artworks with associated ideas for adapting them to be interactive experiences for children. 1) Mona Lisa by Leonardo Da Vinci - create a virtual reality experience that allows children to step inside the painting and explore the scene from different perspectives. 2) The Starry Night by Vincent Van Gogh - create an augmented reality app that overlays stars and planets onto the original painting, allowing children to identify constellations and learn about astronomy. 3) The Scream by Edvard Munch - create a game where players must escape a monster chasing after them while avoiding obstacles inspired by elements in the painting, such as buildings and trees. 4) The Kiss by Gustav Klimt - create a role-playing game where players take on the roles of the main characters in the painting and engage in adventures set in turn-of-the-century Vienna. 5) The Great Wave off Kanagawa by Hokusai - create a puzzle or memory game based on the elements in the painting, such as boats, waves, and mountains."
+  },
+  {
+    "question_id": 156,
+    "category": "humanities",
+    "question": "Explain what's base rate fallacy and list five specific examples of how politicians use it for campaigns.",
+    "answer": "Base rate fallacy is a cognitive bias where we ignore relevant evidence because it doesn\u2019t fit our preconceived notions or beliefs about the world, even when there are plenty of other sources of information that would contradict us. Politicians frequently use this fallacy to their advantage in order to win votes from people who share similar values as them. Here are some specific examples of how politicians might use the base rate fallacy for campaigns:\n1) A politician running on an anti-immigration platform may claim that immigrants commit more crimes than native-born citizens, despite statistics showing that they actually commit fewer crimes.\n2) A candidate who supports lower taxes may argue that cutting government spending will lead to economic growth, ignoring data suggesting that past reductions in government spending have had little effect on growth rates.\n3) A political party promoting austerity measures may suggest that reducing public debt will improve economic stability, without acknowledging research showing that high levels of private debt can be just as harmful as public debt.\n4) A politician advocating for stricter gun control laws may assert that having more guns leads to higher crime rates, overlooking studies demonstrating no correlation between gun ownership and criminal activity.\n5) A political party pushing for increased military spending may insist that investing in defense is necessary for national security, disregarding evidence indicating that such expenditures often do not yield meaningful benefits."
+  },
+  {
+    "question_id": 157,
+    "category": "humanities",
+    "question": "Describe five key principles in evaluating an argument in analytical writing.",
+    "answer": "1) Identify the author's thesis statement.  2) Understand what the thesis is saying about the topic at hand.  3) Determine whether you agree or disagree with the author's thesis.  4) Analyze which evidence supports your position and which evidence does not support your position.  5) Present a logical, coherent counter-argument to the author's thesis that includes supporting evidence."
+  },
+  {
+    "question_id": 158,
+    "category": "humanities",
+    "question": "Which methods did Socrates employ to challenge the prevailing thoughts of his time?",
+    "answer": "Socrates used a number of different techniques in order to challenge and question the prevailing ideas of his time. One of the most famous was the method of elenchus, which involves positing a series of logical questions designed to expose contradictions or flaws in an argument. Another technique that Socrates employed was the method of maieutics, which involved using rhetorical questions and paradoxes to explore the nature of reality and truth. Finally, Socrates also frequently engaged in dialogue with others, asking probing questions and challenging assumptions in order to arrive at a deeper understanding of the subject at hand."
+  },
+  {
+    "question_id": 159,
+    "category": "humanities",
+    "question": "What are some business etiquette norms when doing business in Japan?",
+    "answer": "Some common business etiquette norms include respecting hierarchy, punctuality, and dressing formally. It is also important to be mindful of cultural differences such as the use of body language or hand gestures, and it can be helpful to learn a few basic phrases in Japanese before visiting Japan for business purposes."
+  },
+  {
+    "question_id": 160,
+    "category": "humanities",
+    "question": "Suggest five award-winning documentary films with brief background descriptions for aspiring filmmakers to study.",
+    "answer": "\"The Act of Killing\" is a 2012 documentary film directed by Joshua Oppenheimer and executive produced by Errol Morris, Werner Herzog and Signe Byrge Sorensen. The film explores the Indonesian genocide of 1965\u201366 through reenactments performed by the perpetrators themselves, who discuss their motivations and justify their actions. It was filmed in Indonesia and Denmark over the course of six years between 2003 and 2009. The film premiered at the 2012 Cannes Film Festival on May 24, 2012. It won the Grand Jury Prize at the Sundance Film Festival and the Best Documentary Feature Award at the 86th Academy Awards.\n\n\"Ai Weiwei: Never Sorry\" is a 2012 documentary about Chinese artist Ai Weiwei, directed by Alison Klayman. It premiered at the Tribeca Film Festival and had a wide release in 2012. It won the jury prize at the Full Frame Documentary Film Festival.\n\n\"Citizenfour\" is a 2014 American documentary film directed by Laura Poitras that chronicles Edward Snowden's disclosures of American and British government mass surveillance programs. The film features interviews with Glenn Greenwald, Ewen MacAskill, Jacob Appelbaum, Julian Assange, and Snowden himself. It debuted at the 2014 Toronto International Film Festival on September 10, 2014. On October 16, 2014, the film won the Golden Lion at the Venice Film Festival. In 2015, it received an Oscar nomination for Best Documentary Feature.\n\n\"American Factory\" is a 2019 documentary film directed by Julia Reichert and Steven Bognar. It tells the story of a Chinese billionaire opening a glass factory in Dayton, Ohio, and hiring Americans from the town to work there. The film premiered at the 2019 Sundance Film Festival where it won the U.S. Documentary Grand Jury Prize.\n\n\"Flee\" (Danish: Flugt) is a 2021 Danish computer-animated documentary film directed by Jonas Poher Rasmussen. It is based on the life story of Amin Nawabi, a refugee from Afghanistan. The film depicts his journey as a child to Europe, which he initially fled with his parents during the Soviet invasion of Afghanistan in 1979. The film uses animation as well as real footage to tell the story. It also uses clips from interviews conducted by Rasmussen, who was a friend of Nawabi's while they were living in Denmark. It premiered at the Sundance Film Festival on January 29, 2021, and received critical acclaim. It was subsequently released in the United States on July 2, 2021."
+  }
+]
