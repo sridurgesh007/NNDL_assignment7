@@ -23,7 +23,7 @@ The fine-tuned LoRA adapters for each experimental run are available for downloa
 
 | Run Name | Output Dir | Key Hyperparameters | Google Drive Link (safetensors) |
 | :--- | :--- | :--- | :--- |
-| **Run 3 (Best Eval)** | `outputs2` | **Rank: 64**, LR: 1e-4, 4 Epochs | https://drive.google.com/file/d/1DWC2erPSB52tnOE6r9XaFtclSwomNwLc/view?usp=drive_link |
+| **Run 3 (Best)** | `outputs2` | **Rank: 64**, LR: 1e-4, 4 Epochs | https://drive.google.com/file/d/1DWC2erPSB52tnOE6r9XaFtclSwomNwLc/view?usp=drive_link |
 | **Run 2** | `outputs4` | **Rank: 64**, LR: 5e-5, 6 Epochs | https://drive.google.com/file/d/1VrybH2nkrb3FWxXltD7-KmaWFGAirFgb/view?usp=drive_link |
 | **Run 4** | `outputs` | **Rank: 8**, LR: 2e-4, 3 Epochs | https://drive.google.com/file/d/1F9U85KfO2ykoO0XIKDgN2wCPVVhH23_i/view?usp=drive_link |
 
