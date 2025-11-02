@@ -1,0 +1,237 @@
+Running Python script for answer generation...
+Requirement already satisfied: pip in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (25.3)
+Requirement already satisfied: wheel in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (0.45.1)
+Requirement already satisfied: datasets<4.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (3.6.0)
+Requirement already satisfied: filelock in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from datasets<4.0) (3.18.0)
+Requirement already satisfied: numpy>=1.17 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from datasets<4.0) (2.2.5)
+Requirement already satisfied: pyarrow>=15.0.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from datasets<4.0) (22.0.0)
+Requirement already satisfied: dill<0.3.9,>=0.3.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from datasets<4.0) (0.3.8)
+Requirement already satisfied: pandas in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from datasets<4.0) (2.2.3)
+Requirement already satisfied: requests>=2.32.2 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from datasets<4.0) (2.32.3)
+Requirement already satisfied: tqdm>=4.66.3 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from datasets<4.0) (4.67.1)
+Requirement already satisfied: xxhash in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from datasets<4.0) (3.6.0)
+Requirement already satisfied: multiprocess<0.70.17 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from datasets<4.0) (0.70.16)
+Requirement already satisfied: fsspec<=2025.3.0,>=2023.1.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4.0) (2025.3.0)
+Requirement already satisfied: huggingface-hub>=0.24.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from datasets<4.0) (0.36.0)
+Requirement already satisfied: packaging in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from datasets<4.0) (25.0)
+Requirement already satisfied: pyyaml>=5.1 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from datasets<4.0) (6.0.2)
+Requirement already satisfied: aiohttp!=4.0.0a0,!=4.0.0a1 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4.0) (3.13.1)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4.0) (2.6.1)
+Requirement already satisfied: aiosignal>=1.4.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4.0) (1.4.0)
+Requirement already satisfied: attrs>=17.3.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4.0) (25.3.0)
+Requirement already satisfied: frozenlist>=1.1.1 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4.0) (1.8.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4.0) (6.7.0)
+Requirement already satisfied: propcache>=0.2.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4.0) (0.4.1)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4.0) (1.22.0)
+Requirement already satisfied: idna>=2.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from yarl<2.0,>=1.17.0->aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4.0) (3.10)
+Requirement already satisfied: typing-extensions>=4.2 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from aiosignal>=1.4.0->aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4.0) (4.13.2)
+Requirement already satisfied: hf-xet<2.0.0,>=1.1.3 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from huggingface-hub>=0.24.0->datasets<4.0) (1.2.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from requests>=2.32.2->datasets<4.0) (3.4.1)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from requests>=2.32.2->datasets<4.0) (2.4.0)
+Requirement already satisfied: certifi>=2017.4.17 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from requests>=2.32.2->datasets<4.0) (2025.1.31)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from pandas->datasets<4.0) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from pandas->datasets<4.0) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from pandas->datasets<4.0) (2025.2)
+Requirement already satisfied: six>=1.5 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas->datasets<4.0) (1.17.0)
+Requirement already satisfied: accelerate in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (1.11.0)
+Requirement already satisfied: numpy>=1.17 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from accelerate) (2.2.5)
+Requirement already satisfied: packaging>=20.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from accelerate) (25.0)
+Requirement already satisfied: psutil in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from accelerate) (7.0.0)
+Requirement already satisfied: pyyaml in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from accelerate) (6.0.2)
+Requirement already satisfied: torch>=2.0.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from accelerate) (2.7.0)
+Requirement already satisfied: huggingface_hub>=0.21.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from accelerate) (0.36.0)
+Requirement already satisfied: safetensors>=0.4.3 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from accelerate) (0.5.3)
+Requirement already satisfied: filelock in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from huggingface_hub>=0.21.0->accelerate) (3.18.0)
+Requirement already satisfied: fsspec>=2023.5.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from huggingface_hub>=0.21.0->accelerate) (2025.3.0)
+Requirement already satisfied: requests in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from huggingface_hub>=0.21.0->accelerate) (2.32.3)
+Requirement already satisfied: tqdm>=4.42.1 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from huggingface_hub>=0.21.0->accelerate) (4.67.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from huggingface_hub>=0.21.0->accelerate) (4.13.2)
+Requirement already satisfied: hf-xet<2.0.0,>=1.1.3 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from huggingface_hub>=0.21.0->accelerate) (1.2.0)
+Requirement already satisfied: setuptools in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (70.2.0)
+Requirement already satisfied: sympy>=1.13.3 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (1.14.0)
+Requirement already satisfied: networkx in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (3.4.2)
+Requirement already satisfied: jinja2 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (3.1.6)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.6.77 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (12.6.77)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.6.77 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (12.6.77)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.6.80 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (12.6.80)
+Requirement already satisfied: nvidia-cudnn-cu12==9.5.1.17 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (9.5.1.17)
+Requirement already satisfied: nvidia-cublas-cu12==12.6.4.1 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (12.6.4.1)
+Requirement already satisfied: nvidia-cufft-cu12==11.3.0.4 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (11.3.0.4)
+Requirement already satisfied: nvidia-curand-cu12==10.3.7.77 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (10.3.7.77)
+Requirement already satisfied: nvidia-cusolver-cu12==11.7.1.2 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (11.7.1.2)
+Requirement already satisfied: nvidia-cusparse-cu12==12.5.4.2 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (12.5.4.2)
+Requirement already satisfied: nvidia-cusparselt-cu12==0.6.3 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (0.6.3)
+Requirement already satisfied: nvidia-nccl-cu12==2.26.2 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (2.26.2)
+Requirement already satisfied: nvidia-nvtx-cu12==12.6.77 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (12.6.77)
+Requirement already satisfied: nvidia-nvjitlink-cu12==12.6.85 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (12.6.85)
+Requirement already satisfied: nvidia-cufile-cu12==1.11.1.6 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (1.11.1.6)
+Requirement already satisfied: triton==3.3.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch>=2.0.0->accelerate) (3.3.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from sympy>=1.13.3->torch>=2.0.0->accelerate) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from jinja2->torch>=2.0.0->accelerate) (3.0.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from requests->huggingface_hub>=0.21.0->accelerate) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from requests->huggingface_hub>=0.21.0->accelerate) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from requests->huggingface_hub>=0.21.0->accelerate) (2.4.0)
+Requirement already satisfied: certifi>=2017.4.17 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from requests->huggingface_hub>=0.21.0->accelerate) (2025.1.31)
+Requirement already satisfied: bitsandbytes in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (0.48.2)
+Requirement already satisfied: torch<3,>=2.3 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from bitsandbytes) (2.7.0)
+Requirement already satisfied: numpy>=1.17 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from bitsandbytes) (2.2.5)
+Requirement already satisfied: packaging>=20.9 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from bitsandbytes) (25.0)
+Requirement already satisfied: filelock in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (3.18.0)
+Requirement already satisfied: typing-extensions>=4.10.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (4.13.2)
+Requirement already satisfied: setuptools in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (70.2.0)
+Requirement already satisfied: sympy>=1.13.3 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (1.14.0)
+Requirement already satisfied: networkx in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (3.4.2)
+Requirement already satisfied: jinja2 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (3.1.6)
+Requirement already satisfied: fsspec in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (2025.3.0)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.6.77 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (12.6.77)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.6.77 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (12.6.77)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.6.80 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (12.6.80)
+Requirement already satisfied: nvidia-cudnn-cu12==9.5.1.17 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (9.5.1.17)
+Requirement already satisfied: nvidia-cublas-cu12==12.6.4.1 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (12.6.4.1)
+Requirement already satisfied: nvidia-cufft-cu12==11.3.0.4 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (11.3.0.4)
+Requirement already satisfied: nvidia-curand-cu12==10.3.7.77 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (10.3.7.77)
+Requirement already satisfied: nvidia-cusolver-cu12==11.7.1.2 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (11.7.1.2)
+Requirement already satisfied: nvidia-cusparse-cu12==12.5.4.2 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (12.5.4.2)
+Requirement already satisfied: nvidia-cusparselt-cu12==0.6.3 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (0.6.3)
+Requirement already satisfied: nvidia-nccl-cu12==2.26.2 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (2.26.2)
+Requirement already satisfied: nvidia-nvtx-cu12==12.6.77 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (12.6.77)
+Requirement already satisfied: nvidia-nvjitlink-cu12==12.6.85 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (12.6.85)
+Requirement already satisfied: nvidia-cufile-cu12==1.11.1.6 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (1.11.1.6)
+Requirement already satisfied: triton==3.3.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from torch<3,>=2.3->bitsandbytes) (3.3.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from sympy>=1.13.3->torch<3,>=2.3->bitsandbytes) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/s/sri007/my_project/assignment7/llama_ddp/lib/python3.12/site-packages (from jinja2->torch<3,>=2.3->bitsandbytes) (3.0.2)
+CUDA available: True
+CUDA device count: 1
+PyTorch version: 2.7.0+cu126
+[W&B] key length: 40
+⚙️  Running in WANDB offline mode
+[INFO] W&B Project specified: llama2-finetune-dolly. Attempting W&B setup.
+[W&B] Preflight OK → None
+Getting bnb config
+BitsAndBytesConfig {
+  "_load_in_4bit": true,
+  "_load_in_8bit": false,
+  "bnb_4bit_compute_dtype": "bfloat16",
+  "bnb_4bit_quant_storage": "uint8",
+  "bnb_4bit_quant_type": "nf4",
+  "bnb_4bit_use_double_quant": true,
+  "llm_int8_enable_fp32_cpu_offload": false,
+  "llm_int8_has_fp16_weight": false,
+  "llm_int8_skip_modules": null,
+  "llm_int8_threshold": 6.0,
+  "load_in_4bit": true,
+  "load_in_8bit": false,
+  "quant_method": "bitsandbytes"
+}
+
+trainable params: 79,953,920 || all params: 6,818,377,728 || trainable%: 1.1726
+Training started
+{'loss': 1.6398, 'grad_norm': 0.38012778759002686, 'learning_rate': 6.153846153846155e-05, 'num_tokens': 163492.0, 'mean_token_accuracy': 0.6318024456501007, 'epoch': 0.06}
+{'eval_loss': 1.5646626949310303, 'eval_runtime': 40.1938, 'eval_samples_per_second': 4.006, 'eval_steps_per_second': 2.015, 'eval_num_tokens': 163492.0, 'eval_mean_token_accuracy': 0.6464041143655777, 'epoch': 0.06}
+{'loss': 1.477, 'grad_norm': 0.4241636395454407, 'learning_rate': 0.00013846153846153847, 'num_tokens': 327332.0, 'mean_token_accuracy': 0.6631534099578857, 'epoch': 0.12}
+{'eval_loss': 1.494914174079895, 'eval_runtime': 40.1447, 'eval_samples_per_second': 4.01, 'eval_steps_per_second': 2.018, 'eval_num_tokens': 327332.0, 'eval_mean_token_accuracy': 0.6552214108407497, 'epoch': 0.12}
+{'loss': 1.4725, 'grad_norm': 0.3244346082210541, 'learning_rate': 0.0001999906715964522, 'num_tokens': 491172.0, 'mean_token_accuracy': 0.6537799343466759, 'epoch': 0.19}
+{'eval_loss': 1.4509416818618774, 'eval_runtime': 40.156, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 491172.0, 'eval_mean_token_accuracy': 0.6630420610308647, 'epoch': 0.19}
+{'loss': 1.4301, 'grad_norm': 0.390849769115448, 'learning_rate': 0.00019966436017605297, 'num_tokens': 653781.0, 'mean_token_accuracy': 0.667219115793705, 'epoch': 0.25}
+{'eval_loss': 1.4319860935211182, 'eval_runtime': 40.1673, 'eval_samples_per_second': 4.008, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 653781.0, 'eval_mean_token_accuracy': 0.6649239547550678, 'epoch': 0.25}
+{'loss': 1.4109, 'grad_norm': 0.27157527208328247, 'learning_rate': 0.0001988733675015585, 'num_tokens': 814819.0, 'mean_token_accuracy': 0.6653333559632302, 'epoch': 0.31}
+{'eval_loss': 1.41817045211792, 'eval_runtime': 40.1213, 'eval_samples_per_second': 4.013, 'eval_steps_per_second': 2.019, 'eval_num_tokens': 814819.0, 'eval_mean_token_accuracy': 0.6667898669838905, 'epoch': 0.31}
+{'loss': 1.426, 'grad_norm': 0.10588359832763672, 'learning_rate': 0.00019762138154595446, 'num_tokens': 978659.0, 'mean_token_accuracy': 0.6652174055576324, 'epoch': 0.37}
+{'eval_loss': 1.4104936122894287, 'eval_runtime': 40.158, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 978659.0, 'eval_mean_token_accuracy': 0.6679921306669712, 'epoch': 0.37}
+{'loss': 1.4161, 'grad_norm': 0.14442411065101624, 'learning_rate': 0.00019591423964570632, 'num_tokens': 1142299.0, 'mean_token_accuracy': 0.6664238840341568, 'epoch': 0.43}
+{'eval_loss': 1.4042094945907593, 'eval_runtime': 40.1514, 'eval_samples_per_second': 4.01, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 1142299.0, 'eval_mean_token_accuracy': 0.6693673744797707, 'epoch': 0.43}
+{'loss': 1.378, 'grad_norm': 0.10932834446430206, 'learning_rate': 0.00019375990128440204, 'num_tokens': 1305750.0, 'mean_token_accuracy': 0.6746551781892777, 'epoch': 0.5}
+{'eval_loss': 1.3982534408569336, 'eval_runtime': 40.1569, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 1305750.0, 'eval_mean_token_accuracy': 0.6711032398045063, 'epoch': 0.5}
+{'loss': 1.4049, 'grad_norm': 0.11337016522884369, 'learning_rate': 0.00019116841098196536, 'num_tokens': 1469268.0, 'mean_token_accuracy': 0.671185764670372, 'epoch': 0.56}
+{'eval_loss': 1.3938319683074951, 'eval_runtime': 40.1586, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 1469268.0, 'eval_mean_token_accuracy': 0.6717553906142711, 'epoch': 0.56}
+{'loss': 1.395, 'grad_norm': 0.11071034520864487, 'learning_rate': 0.00018815185146246716, 'num_tokens': 1633108.0, 'mean_token_accuracy': 0.6695041656494141, 'epoch': 0.62}
+{'eval_loss': 1.3909494876861572, 'eval_runtime': 40.1513, 'eval_samples_per_second': 4.01, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 1633108.0, 'eval_mean_token_accuracy': 0.6722480192780494, 'epoch': 0.62}
+{'loss': 1.3894, 'grad_norm': 0.11098039895296097, 'learning_rate': 0.00018472428731888837, 'num_tokens': 1796037.0, 'mean_token_accuracy': 0.6716007933020591, 'epoch': 0.68}
+{'eval_loss': 1.3875774145126343, 'eval_runtime': 40.1607, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 1796037.0, 'eval_mean_token_accuracy': 0.6728173561394215, 'epoch': 0.68}
+{'loss': 1.3884, 'grad_norm': 0.11950016766786575, 'learning_rate': 0.00018090169943749476, 'num_tokens': 1958018.0, 'mean_token_accuracy': 0.6725593984127045, 'epoch': 0.75}
+{'eval_loss': 1.3840910196304321, 'eval_runtime': 40.1637, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 1958018.0, 'eval_mean_token_accuracy': 0.6737399652600289, 'epoch': 0.75}
+{'loss': 1.3795, 'grad_norm': 0.1467079371213913, 'learning_rate': 0.0001767019104875683, 'num_tokens': 2120318.0, 'mean_token_accuracy': 0.6743991687893868, 'epoch': 0.81}
+{'eval_loss': 1.380814552307129, 'eval_runtime': 40.1633, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 2120318.0, 'eval_mean_token_accuracy': 0.6744174465537072, 'epoch': 0.81}
+{'loss': 1.4207, 'grad_norm': 0.11700001358985901, 'learning_rate': 0.00017214450182389559, 'num_tokens': 2284158.0, 'mean_token_accuracy': 0.6653944954276085, 'epoch': 0.87}
+{'eval_loss': 1.377778172492981, 'eval_runtime': 40.1495, 'eval_samples_per_second': 4.01, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 2284158.0, 'eval_mean_token_accuracy': 0.6749266222119331, 'epoch': 0.87}
+{'loss': 1.4141, 'grad_norm': 0.10826864838600159, 'learning_rate': 0.00016725072218945272, 'num_tokens': 2447998.0, 'mean_token_accuracy': 0.6681546315550804, 'epoch': 0.93}
+{'eval_loss': 1.3750935792922974, 'eval_runtime': 40.1811, 'eval_samples_per_second': 4.007, 'eval_steps_per_second': 2.016, 'eval_num_tokens': 2447998.0, 'eval_mean_token_accuracy': 0.6752425394952297, 'epoch': 0.93}
+{'loss': 1.3754, 'grad_norm': 0.11987201124429703, 'learning_rate': 0.00016204338864395684, 'num_tokens': 2610708.0, 'mean_token_accuracy': 0.676512072980404, 'epoch': 0.99}
+{'eval_loss': 1.3725703954696655, 'eval_runtime': 40.1486, 'eval_samples_per_second': 4.01, 'eval_steps_per_second': 2.018, 'eval_num_tokens': 2610708.0, 'eval_mean_token_accuracy': 0.6755742512643337, 'epoch': 0.99}
+{'loss': 1.3239, 'grad_norm': 0.10582446306943893, 'learning_rate': 0.0001565467801802006, 'num_tokens': 2756557.0, 'mean_token_accuracy': 0.6889634744988548, 'epoch': 1.05}
+{'eval_loss': 1.3716566562652588, 'eval_runtime': 40.1739, 'eval_samples_per_second': 4.008, 'eval_steps_per_second': 2.016, 'eval_num_tokens': 2756557.0, 'eval_mean_token_accuracy': 0.6760132029652596, 'epoch': 1.05}
+{'loss': 1.3171, 'grad_norm': 0.12472505122423172, 'learning_rate': 0.00015078652452418063, 'num_tokens': 2920397.0, 'mean_token_accuracy': 0.6887029871344567, 'epoch': 1.11}
+{'eval_loss': 1.3729987144470215, 'eval_runtime': 40.1912, 'eval_samples_per_second': 4.006, 'eval_steps_per_second': 2.015, 'eval_num_tokens': 2920397.0, 'eval_mean_token_accuracy': 0.6762274585664272, 'epoch': 1.11}
+{'loss': 1.3004, 'grad_norm': 0.130237877368927, 'learning_rate': 0.0001447894786468082, 'num_tokens': 3082813.0, 'mean_token_accuracy': 0.6919822096824646, 'epoch': 1.17}
+{'eval_loss': 1.3699668645858765, 'eval_runtime': 40.1607, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 3082813.0, 'eval_mean_token_accuracy': 0.6764593534171581, 'epoch': 1.17}
+{'loss': 1.2966, 'grad_norm': 0.13590699434280396, 'learning_rate': 0.00013858360354431355, 'num_tokens': 3245065.0, 'mean_token_accuracy': 0.6912682488560676, 'epoch': 1.24}
+{'eval_loss': 1.3722652196884155, 'eval_runtime': 40.1639, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 3245065.0, 'eval_mean_token_accuracy': 0.6768625348806381, 'epoch': 1.24}
+{'loss': 1.2991, 'grad_norm': 0.13100308179855347, 'learning_rate': 0.00013219783387117385, 'num_tokens': 3408905.0, 'mean_token_accuracy': 0.6900464221835136, 'epoch': 1.3}
+{'eval_loss': 1.3692371845245361, 'eval_runtime': 40.1779, 'eval_samples_per_second': 4.007, 'eval_steps_per_second': 2.016, 'eval_num_tokens': 3408905.0, 'eval_mean_token_accuracy': 0.6769579008221627, 'epoch': 1.3}
+{'loss': 1.2373, 'grad_norm': 0.14415580034255981, 'learning_rate': 0.00012566194303339739, 'num_tokens': 3572616.0, 'mean_token_accuracy': 0.7039541646838188, 'epoch': 1.36}
+{'eval_loss': 1.3677021265029907, 'eval_runtime': 40.163, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 3572616.0, 'eval_mean_token_accuracy': 0.6772235333919525, 'epoch': 1.36}
+{'loss': 1.333, 'grad_norm': 0.1475999355316162, 'learning_rate': 0.00011900640437116073, 'num_tokens': 3736456.0, 'mean_token_accuracy': 0.6831094428896904, 'epoch': 1.42}
+{'eval_loss': 1.3665708303451538, 'eval_runtime': 40.1676, 'eval_samples_per_second': 4.008, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 3736456.0, 'eval_mean_token_accuracy': 0.6778643757104874, 'epoch': 1.42}
+{'loss': 1.2455, 'grad_norm': 0.15754467248916626, 'learning_rate': 0.00011226224907802985, 'num_tokens': 3900296.0, 'mean_token_accuracy': 0.7012090966105461, 'epoch': 1.48}
+{'eval_loss': 1.3635461330413818, 'eval_runtime': 40.17, 'eval_samples_per_second': 4.008, 'eval_steps_per_second': 2.016, 'eval_num_tokens': 3900296.0, 'eval_mean_token_accuracy': 0.6782212659716607, 'epoch': 1.48}
+{'loss': 1.2993, 'grad_norm': 0.1479475051164627, 'learning_rate': 0.000105460921519211, 'num_tokens': 4064136.0, 'mean_token_accuracy': 0.6899059727787972, 'epoch': 1.55}
+{'eval_loss': 1.3621746301651, 'eval_runtime': 40.1637, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 4064136.0, 'eval_mean_token_accuracy': 0.6786670401692391, 'epoch': 1.55}
+{'loss': 1.2589, 'grad_norm': 0.1391405314207077, 'learning_rate': 9.863413262340491e-05, 'num_tokens': 4227587.0, 'mean_token_accuracy': 0.7007655620574951, 'epoch': 1.61}
+{'eval_loss': 1.3605122566223145, 'eval_runtime': 40.1499, 'eval_samples_per_second': 4.01, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 4227587.0, 'eval_mean_token_accuracy': 0.6788286738097667, 'epoch': 1.61}
+{'loss': 1.3114, 'grad_norm': 0.15744060277938843, 'learning_rate': 9.181371203181872e-05, 'num_tokens': 4391427.0, 'mean_token_accuracy': 0.6897777363657951, 'epoch': 1.67}
+{'eval_loss': 1.360851526260376, 'eval_runtime': 40.1726, 'eval_samples_per_second': 4.008, 'eval_steps_per_second': 2.016, 'eval_num_tokens': 4391427.0, 'eval_mean_token_accuracy': 0.6789387792348862, 'epoch': 1.67}
+{'loss': 1.2789, 'grad_norm': 0.14486125111579895, 'learning_rate': 8.503145969368562e-05, 'num_tokens': 4554137.0, 'mean_token_accuracy': 0.6941702321171761, 'epoch': 1.73}
+{'eval_loss': 1.3586455583572388, 'eval_runtime': 40.1753, 'eval_samples_per_second': 4.007, 'eval_steps_per_second': 2.016, 'eval_num_tokens': 4554137.0, 'eval_mean_token_accuracy': 0.6793274469673634, 'epoch': 1.73}
+{'loss': 1.2747, 'grad_norm': 0.15537631511688232, 'learning_rate': 7.831899760022192e-05, 'num_tokens': 4716746.0, 'mean_token_accuracy': 0.6961807817220688, 'epoch': 1.8}
+{'eval_loss': 1.357301950454712, 'eval_runtime': 40.1827, 'eval_samples_per_second': 4.007, 'eval_steps_per_second': 2.016, 'eval_num_tokens': 4716746.0, 'eval_mean_token_accuracy': 0.6796492822468281, 'epoch': 1.8}
+{'loss': 1.2622, 'grad_norm': 0.1693136841058731, 'learning_rate': 7.170762234830699e-05, 'num_tokens': 4877352.0, 'mean_token_accuracy': 0.700413104891777, 'epoch': 1.86}
+{'eval_loss': 1.3576529026031494, 'eval_runtime': 40.1607, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 4877352.0, 'eval_mean_token_accuracy': 0.6799034178256989, 'epoch': 1.86}
+{'loss': 1.2686, 'grad_norm': 0.15120168030261993, 'learning_rate': 6.522815922130112e-05, 'num_tokens': 5041192.0, 'mean_token_accuracy': 0.6988031372427941, 'epoch': 1.92}
+{'eval_loss': 1.3555176258087158, 'eval_runtime': 40.1654, 'eval_samples_per_second': 4.008, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 5041192.0, 'eval_mean_token_accuracy': 0.6801855608820915, 'epoch': 1.92}
+{'loss': 1.283, 'grad_norm': 0.15155600011348724, 'learning_rate': 5.8910818467345185e-05, 'num_tokens': 5205032.0, 'mean_token_accuracy': 0.6954018205404282, 'epoch': 1.98}
+{'eval_loss': 1.3551256656646729, 'eval_runtime': 40.1676, 'eval_samples_per_second': 4.008, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 5205032.0, 'eval_mean_token_accuracy': 0.68043162971735, 'epoch': 1.98}
+{'loss': 1.2047, 'grad_norm': 0.14961613714694977, 'learning_rate': 5.278505444523816e-05, 'num_tokens': 5352488.0, 'mean_token_accuracy': 0.7082926332950592, 'epoch': 2.04}
+{'eval_loss': 1.358020544052124, 'eval_runtime': 40.1667, 'eval_samples_per_second': 4.008, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 5352488.0, 'eval_mean_token_accuracy': 0.6800851806998253, 'epoch': 2.04}
+{'loss': 1.1613, 'grad_norm': 0.1722690761089325, 'learning_rate': 4.687942829461969e-05, 'num_tokens': 5514708.0, 'mean_token_accuracy': 0.7208275184035301, 'epoch': 2.1}
+{'eval_loss': 1.3666023015975952, 'eval_runtime': 40.1612, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 5514708.0, 'eval_mean_token_accuracy': 0.6791661530733109, 'epoch': 2.1}
+{'loss': 1.22, 'grad_norm': 0.1583564579486847, 'learning_rate': 4.12214747707527e-05, 'num_tokens': 5678548.0, 'mean_token_accuracy': 0.7056607335805893, 'epoch': 2.16}
+{'eval_loss': 1.3626718521118164, 'eval_runtime': 40.1934, 'eval_samples_per_second': 4.006, 'eval_steps_per_second': 2.015, 'eval_num_tokens': 5678548.0, 'eval_mean_token_accuracy': 0.6795426070690155, 'epoch': 2.16}
+{'loss': 1.1743, 'grad_norm': 0.16731852293014526, 'learning_rate': 3.583757386478389e-05, 'num_tokens': 5842388.0, 'mean_token_accuracy': 0.7196629285812378, 'epoch': 2.22}
+{'eval_loss': 1.3630337715148926, 'eval_runtime': 40.1664, 'eval_samples_per_second': 4.008, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 5842388.0, 'eval_mean_token_accuracy': 0.6794461473822594, 'epoch': 2.22}
+{'loss': 1.2151, 'grad_norm': 0.16679731011390686, 'learning_rate': 3.0752827808047445e-05, 'num_tokens': 6005906.0, 'mean_token_accuracy': 0.707914924621582, 'epoch': 2.29}
+{'eval_loss': 1.367187261581421, 'eval_runtime': 40.1676, 'eval_samples_per_second': 4.008, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 6005906.0, 'eval_mean_token_accuracy': 0.6792573735117913, 'epoch': 2.29}
+{'loss': 1.1998, 'grad_norm': 0.16763176023960114, 'learning_rate': 2.599094403387481e-05, 'num_tokens': 6168835.0, 'mean_token_accuracy': 0.7124189496040344, 'epoch': 2.35}
+{'eval_loss': 1.3675931692123413, 'eval_runtime': 40.1572, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 6168835.0, 'eval_mean_token_accuracy': 0.6790138304233551, 'epoch': 2.35}
+{'loss': 1.2012, 'grad_norm': 0.16889069974422455, 'learning_rate': 2.1574124642596883e-05, 'num_tokens': 6332604.0, 'mean_token_accuracy': 0.7118809401988984, 'epoch': 2.41}
+{'eval_loss': 1.3650882244110107, 'eval_runtime': 40.1484, 'eval_samples_per_second': 4.01, 'eval_steps_per_second': 2.018, 'eval_num_tokens': 6332604.0, 'eval_mean_token_accuracy': 0.6791932553052902, 'epoch': 2.41}
+{'loss': 1.1877, 'grad_norm': 0.1661260426044464, 'learning_rate': 1.7522962885103145e-05, 'num_tokens': 6496444.0, 'mean_token_accuracy': 0.7169333249330521, 'epoch': 2.47}
+{'eval_loss': 1.3642218112945557, 'eval_runtime': 40.1655, 'eval_samples_per_second': 4.008, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 6496444.0, 'eval_mean_token_accuracy': 0.6794534981250763, 'epoch': 2.47}
+{'loss': 1.1129, 'grad_norm': 0.16464939713478088, 'learning_rate': 1.3856347147600013e-05, 'num_tokens': 6660155.0, 'mean_token_accuracy': 0.7322213739156723, 'epoch': 2.53}
+{'eval_loss': 1.3650598526000977, 'eval_runtime': 40.16, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 6660155.0, 'eval_mean_token_accuracy': 0.679319155216217, 'epoch': 2.53}
+{'loss': 1.1978, 'grad_norm': 0.17125104367733002, 'learning_rate': 1.0591372885234885e-05, 'num_tokens': 6819715.0, 'mean_token_accuracy': 0.7121926546096802, 'epoch': 2.6}
+{'eval_loss': 1.365483045578003, 'eval_runtime': 40.1467, 'eval_samples_per_second': 4.01, 'eval_steps_per_second': 2.018, 'eval_num_tokens': 6819715.0, 'eval_mean_token_accuracy': 0.6792735442519188, 'epoch': 2.6}
+{'loss': 1.1904, 'grad_norm': 0.1699274331331253, 'learning_rate': 7.74326291519284e-06, 'num_tokens': 6982015.0, 'mean_token_accuracy': 0.7139328718185425, 'epoch': 2.66}
+{'eval_loss': 1.365093469619751, 'eval_runtime': 40.1632, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 6982015.0, 'eval_mean_token_accuracy': 0.6795533508062362, 'epoch': 2.66}
+{'loss': 1.2504, 'grad_norm': 0.17337238788604736, 'learning_rate': 5.325296440895622e-06, 'num_tokens': 7145855.0, 'mean_token_accuracy': 0.6984245344996453, 'epoch': 2.72}
+{'eval_loss': 1.3649804592132568, 'eval_runtime': 40.1563, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 7145855.0, 'eval_mean_token_accuracy': 0.6794177629053593, 'epoch': 2.72}
+{'loss': 1.1174, 'grad_norm': 0.16288016736507416, 'learning_rate': 3.3487471382255275e-06, 'num_tokens': 7309695.0, 'mean_token_accuracy': 0.7300195470452309, 'epoch': 2.78}
+{'eval_loss': 1.3646987676620483, 'eval_runtime': 40.164, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 7309695.0, 'eval_mean_token_accuracy': 0.6794199123978615, 'epoch': 2.78}
+{'loss': 1.1683, 'grad_norm': 0.16971173882484436, 'learning_rate': 1.822830592444147e-06, 'num_tokens': 7473535.0, 'mean_token_accuracy': 0.7184477373957634, 'epoch': 2.84}
+{'eval_loss': 1.3646752834320068, 'eval_runtime': 40.1676, 'eval_samples_per_second': 4.008, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 7473535.0, 'eval_mean_token_accuracy': 0.6794459588825703, 'epoch': 2.84}
+{'loss': 1.2385, 'grad_norm': 0.17277131974697113, 'learning_rate': 7.546613308798466e-07, 'num_tokens': 7637375.0, 'mean_token_accuracy': 0.7025769531726838, 'epoch': 2.91}
+{'eval_loss': 1.364670753479004, 'eval_runtime': 40.1631, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 7637375.0, 'eval_mean_token_accuracy': 0.6794597923755645, 'epoch': 2.91}
+{'loss': 1.225, 'grad_norm': 0.17467108368873596, 'learning_rate': 1.4921965171720287e-07, 'num_tokens': 7799356.0, 'mean_token_accuracy': 0.7069731518626213, 'epoch': 2.97}
+{'eval_loss': 1.3647197484970093, 'eval_runtime': 40.1533, 'eval_samples_per_second': 4.01, 'eval_steps_per_second': 2.017, 'eval_num_tokens': 7799356.0, 'eval_mean_token_accuracy': 0.679496243596077, 'epoch': 2.97}
+{'train_runtime': 5045.0816, 'train_samples_per_second': 0.766, 'train_steps_per_second': 0.048, 'train_loss': 1.3001319999066892, 'num_tokens': 7881276.0, 'mean_token_accuracy': 0.7162066519260406, 'epoch': 3.0}
+***** eval metrics *****
+  eval_loss               =     1.3646
+  eval_perplexity         =     3.9143
+  eval_runtime            = 0:00:40.14
+  eval_samples_per_second =      4.011
+  eval_steps_per_second   =      2.018
+Merging LoRA adapters into base model and saving full weights...
+Done.
+[1;34mwandb[0m: 
+[1;34mwandb[0m: You can sync this run to the cloud by running:
+[1;34mwandb[0m: [1mwandb sync /home/s/sri007/my_project/assignment7/llama_training/wandb/offline-run-20251102_034233-w2kl5xmv[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/offline-run-20251102_034233-w2kl5xmv/logs[0m
