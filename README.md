@@ -39,6 +39,8 @@ Conducted four main experiments, each with different hyperparameters.
 * **`outputs4` (Run 2):** A high-rank ($r=64$) run with a lower learning rate (5e-5) and more epochs (6) to test for convergence.
 * **`outputs5` (Run 1 - DDP):** A run using **Distributed Data Parallel (DDP)** across 2x H100 GPUs. This run achieved the lowest training and validation loss.
 
+### For viewing Visualizations
+|click this link: https://api.wandb.ai/links/srisona361-national-university-of-singapore/osbq1q5b |
 ### How to Re-Train
 
 The training was performed using the `train2.py` script.
